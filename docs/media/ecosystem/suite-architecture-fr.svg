@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Un seul projet, plusieurs outils</title>
+  <desc id="desc">StageDesk reste autonome avec ses projets smtshow et peut aussi partager un projet stageflow avec les autres logiciels SiLeMIO.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101923"/><stop offset="1" stop-color="#14212d"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#58a8d3"/></marker>
+    <style>text{font-family:'Segoe UI',Arial,sans-serif;fill:#f4f8fa}.muted{fill:#a9bac6}.accent{fill:#62d4c9}.card{fill:#1b2a38;stroke:#354b60;stroke-width:2}.link{stroke:#58a8d3;stroke-width:3;fill:none;marker-start:url(#a);marker-end:url(#a)}</style>
+  </defs>
+  <rect width="1400" height="820" fill="url(#bg)"/>
+  <text x="70" y="66" font-size="38" font-weight="600">Un seul projet, plusieurs outils</text>
+  <text x="70" y="103" class="muted" font-size="21">Chaque application reste autonome. Le partage StageFlow est un choix.</text>
+  <rect x="90" y="180" width="390" height="170" rx="18" class="card"/>
+  <text x="125" y="230" font-size="29" font-weight="600">StageDesk</text>
+  <text x="125" y="270" class="muted" font-size="20">Projet autonome</text>
+  <rect x="125" y="292" width="220" height="38" rx="19" fill="#173934"/><text x="235" y="318" text-anchor="middle" class="accent" font-size="20">Spectacle.smtshow</text>
+  <path d="M480 265H575" class="link"/>
+  <rect x="575" y="150" width="510" height="250" rx="24" fill="#223445" stroke="#21b6a8" stroke-width="3"/>
+  <text x="830" y="206" text-anchor="middle" class="accent" font-size="18" font-weight="600">FORMAT PARTAGÉ FACULTATIF</text>
+  <text x="830" y="257" text-anchor="middle" font-size="32" font-weight="600">Spectacle.stageflow</text>
+  <text x="830" y="294" text-anchor="middle" class="muted" font-size="20">project.json · patch.json · smt/smt.json</text>
+  <text x="830" y="342" text-anchor="middle" font-size="19">Domaines séparés · verrous · fusion · sauvegardes</text>
+  <text x="830" y="375" text-anchor="middle" class="accent" font-size="18">StageFlow n'est pas obligatoire.</text>
+  <path d="M1085 265H1180" class="link"/>
+  <rect x="1180" y="180" width="170" height="170" rx="18" class="card"/>
+  <text x="1265" y="230" text-anchor="middle" font-size="24" font-weight="600">StageFlow</text>
+  <text x="1265" y="266" text-anchor="middle" class="accent" font-size="18">gratuit</text>
+  <text x="1265" y="298" text-anchor="middle" class="muted" font-size="17">console centrale</text>
+  <text x="1265" y="323" text-anchor="middle" class="muted" font-size="17">optionnelle</text>
+  <path d="M830 400V490" class="link"/>
+  <g transform="translate(90 500)">
+    <rect width="250" height="120" rx="16" class="card"/><text x="125" y="50" text-anchor="middle" font-size="22" font-weight="600">Dante Config Editor</text><text x="125" y="84" text-anchor="middle" class="muted" font-size="17">Dante hors ligne</text>
+    <rect x="320" width="250" height="120" rx="16" class="card"/><text x="445" y="50" text-anchor="middle" font-size="24" font-weight="600">StageMark</text><text x="445" y="84" text-anchor="middle" class="muted" font-size="17">Implantation · cues</text>
+    <rect x="640" width="250" height="120" rx="16" class="card"/><text x="765" y="50" text-anchor="middle" font-size="24" font-weight="600">StageMon</text><text x="765" y="84" text-anchor="middle" class="muted" font-size="17">Deux écoutes live</text>
+    <rect x="960" width="250" height="120" rx="16" class="card"/><text x="1085" y="50" text-anchor="middle" font-size="24" font-weight="600">AutoCAD</text><text x="1085" y="84" text-anchor="middle" class="muted" font-size="17">Plan technique</text>
+  </g>
+  <text x="70" y="710" class="accent" font-size="22">Projet natif ou projet partagé : vous choisissez à chaque création et à chaque ouverture.</text>
+  <text x="1330" y="780" text-anchor="end" class="muted" font-size="16">SiLeMI/O by Mamat — ----[]--</text>
+</svg>

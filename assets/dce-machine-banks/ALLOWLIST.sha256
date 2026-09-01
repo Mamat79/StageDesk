@@ -1,0 +1,4 @@
+# Banques DCE publiques assainies autorisées dans les paquets SMT.
+# Format : SHA-256, deux espaces, nom de fichier exact.
+E1DAA400A76A7DAFD76790313C60EA546BAED5B5AD38F14F0473553B86B55A2C  DCE_Community_Devices_2026_3.dce-bank.zip
+911B8E6365C0804867E2ECF562898EEB739603D1C7B33614DFA1DF849AB4FFE1  DCE_Generic_Roles_2026_3.dce-bank.zip
