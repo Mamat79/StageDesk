@@ -12,10 +12,13 @@
   <p>
     <a href="README.md">English</a> ·
     <a href="https://github.com/Mamat79/StageDesk/releases/latest">Télécharger</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.mp4">Vidéo de présentation</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.vtt">Sous-titres FR</a> ·
     <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
     <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
+  <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageDesk"></a>
 </div>
 
 ## Une préparation, plusieurs destinations

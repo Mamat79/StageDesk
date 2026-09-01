@@ -18,10 +18,13 @@
   <p>
     <a href="#english">English</a> ·
     <a href="https://github.com/Mamat79/StageDesk/releases/latest">Télécharger</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.mp4">Vidéo de présentation</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.vtt">Sous-titres FR</a> ·
     <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
     <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
+  <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageDesk"></a>
 </div>
 
 ## Une préparation, plusieurs destinations
@@ -328,10 +331,13 @@ StageDesk fait partie de la gamme **SiLeMI/O by Mamat**.
   <p>
     <a href="#francais">Français</a> ·
     <a href="https://github.com/Mamat79/StageDesk/releases/latest">Download</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en.mp4">Presentation video</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en.vtt">EN captions</a> ·
     <a href="docs/StageDesk-Quick-Start-EN.pdf">Quick start</a> ·
     <a href="docs/StageDesk-Professional-Guide-EN.pdf">Professional guide</a> ·
     <a href="docs/SiLeMIO-Suite-Guide-EN.pdf">SiLeMIO suite guide</a>
   </p>
+  <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en.mp4"><img src="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en-poster.png" width="820" alt="StageDesk presentation video"></a>
 </div>
 
 ## One preparation, multiple destinations
