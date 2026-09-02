@@ -18,13 +18,10 @@
   <p>
     <a href="#english">English</a> ·
     <a href="https://github.com/Mamat79/StageDesk/releases/latest">Télécharger</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.mp4">Vidéo de présentation</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.vtt">Sous-titres FR</a> ·
     <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
     <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
-  <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr.mp4"><img src="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-fr-poster.png" width="820" alt="Présentation vidéo StageDesk"></a>
 </div>
 
 ## Une préparation, plusieurs destinations
@@ -267,34 +264,40 @@ flowchart LR
 
 ### StageFlow LIVE, sans perdre l’autonomie
 
-StageDesk distingue désormais **LIVE local** et **LIVE réseau**. Le LIVE
-local suit un dossier `.stageflow` ouvert sur le même poste. Le LIVE réseau se
-rejoint volontairement depuis le panneau StageFlow, après découverte sur le
-LAN, sélection de la session et saisie du code à six chiffres affiché par le
-maître. Ce code n’est jamais enregistré.
+StageDesk distingue trois parcours : **Projet StageDesk** (`.smtshow` autonome),
+**Projet StageFlow local** (dossier `.stageflow` ouvert sur le même poste) et
+**Session StageFlow LIVE**. Une session LIVE se rejoint uniquement par le bouton
+**Voir / rejoindre les projets StageFlow LIVE…**, après découverte sur le LAN,
+sélection du projet et de l’ordinateur hôte, puis saisie du code à six chiffres
+affiché par StageFlow. Le code et le chemin distant ne sont jamais enregistrés.
 
-- **Suivre les sessions StageFlow LIVE** est activé par défaut et reste un choix local.
-- En LIVE, chaque patch externe valide est fusionné immédiatement dans le
+- **Suivre les changements du projet StageFlow local** est activé par défaut et
+  concerne uniquement un dossier local. Une Session StageFlow LIVE rejointe est
+  toujours actualisée en temps réel.
+- En Session StageFlow LIVE, chaque patch externe valide est fusionné immédiatement dans le
   tableau visible, sans rappeler le snapshot ni recharger manuellement le
   projet.
 - Les modifications locales et externes portant sur des champs différents sont
   conservées ensemble. En cas de modification concurrente du même champ, la
   valeur locale est conservée et **Conflit LIVE** signale clairement le point à
   arbitrer ; les autres changements continuent d'être appliqués.
-- Sans session LIVE valide, ou lorsque le suivi est désactivé, StageDesk reste
-  entièrement manuel et autonome ; le bouton **Recharger** applique le projet
-  externe uniquement sur demande.
+- Sans Session StageFlow LIVE valide, StageDesk reste manuel et autonome. Le
+  bouton **Recharger** applique les changements d’un Projet StageFlow local
+  uniquement sur demande lorsque son suivi est désactivé.
 - StageDesk ne démarre pas une session LIVE et n’envoie aucune commande à une console,
   un réseau ou un DAW par ce mécanisme.
-- En LIVE réseau, seuls `patch.json` et `smt/smt.json` peuvent être publiés par
+- En Session StageFlow LIVE, seuls `patch.json` et `smt/smt.json` peuvent être publiés par
   StageDesk. Les domaines tiers restent opaques et intacts ; les classeurs
   Excel référencés sont transférés séparément avec contrôle de taille et de
   SHA-256.
-- Les alertes LIVE sont éphémères et limitées aux véritables changements de
-  labels. Le maître les active ou les désactive ; un mode désactivé est un état
-  normal, pas une erreur.
+- Les alertes de labels sont reçues par défaut. Une bannière orange persistante
+  affiche l’ancienne et la nouvelle valeur jusqu’à l’acquittement sur ce poste.
+  Chaque destinataire peut désactiver localement la réception : son retard est
+  alors acquitté pour lui seul, les autres postes ne changent pas et une
+  réactivation ne fait pas réapparaître les anciennes alertes.
 - **Enregistrer sous** produit une copie autonome `.smtshow`, puis détache le
-  poste du LIVE réseau sans perdre le tableau courant.
+  poste de la Session StageFlow LIVE sans perdre le tableau courant. Une perte
+  de connexion est signalée en rouge et ne déclenche aucune reconnexion automatique.
 
 - [Télécharger StageFlow — gratuit et optionnel](https://github.com/Mamat79/StageFlow/releases/latest)
 - [Télécharger Dante Config Editor](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
@@ -331,13 +334,10 @@ StageDesk fait partie de la gamme **SiLeMI/O by Mamat**.
   <p>
     <a href="#francais">Français</a> ·
     <a href="https://github.com/Mamat79/StageDesk/releases/latest">Download</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en.mp4">Presentation video</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en.vtt">EN captions</a> ·
     <a href="docs/StageDesk-Quick-Start-EN.pdf">Quick start</a> ·
     <a href="docs/StageDesk-Professional-Guide-EN.pdf">Professional guide</a> ·
     <a href="docs/SiLeMIO-Suite-Guide-EN.pdf">SiLeMIO suite guide</a>
   </p>
-  <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en.mp4"><img src="https://github.com/Mamat79/StageDesk/releases/download/v2026.9/stagedesk-presentation-en-poster.png" width="820" alt="StageDesk presentation video"></a>
 </div>
 
 ## One preparation, multiple destinations
@@ -574,28 +574,36 @@ flowchart LR
 
 ### StageFlow LIVE without losing standalone operation
 
-StageDesk now distinguishes **Local LIVE** from **Network LIVE**. Local LIVE
-follows a `.stageflow` folder on the same computer. Network LIVE is joined only
-after an explicit LAN discovery, session selection, and entry of the six-digit
-code displayed by the master. The pairing code is never stored.
+StageDesk provides three explicit workflows: **StageDesk project** (standalone
+`.smtshow`), **Local StageFlow project** (a `.stageflow` folder on this computer),
+and **StageFlow LIVE session**. A LIVE session is joined only through **View /
+join StageFlow LIVE projects…**, after LAN discovery, project and host-computer
+selection, and entry of the six-digit code shown by StageFlow. Neither the code
+nor a remote path is stored.
 
-- **Follow StageFlow LIVE sessions** is enabled by default and remains a local preference.
-- In LIVE, every valid external patch is merged immediately into the visible
+- **Follow local StageFlow project changes** is enabled by default and applies
+  only to a local folder. A joined StageFlow LIVE session always updates in real time.
+- In a StageFlow LIVE session, every valid external patch is merged immediately into the visible
   table, without recalling the snapshot or manually reloading the project.
 - Local and external edits to different fields are kept together. If both sides
   edit the same field, the local value is preserved and **LIVE conflict** marks
   the item for review while all non-conflicting changes still apply.
-- Without a valid LIVE session, or when following is disabled, StageDesk stays fully
-  manual and standalone; **Reload** applies the external project only on request.
+- Without a valid StageFlow LIVE session, StageDesk remains manual and
+  standalone. **Reload** applies Local StageFlow project changes on request
+  when local following is disabled.
 - StageDesk never starts a LIVE session and this mechanism sends no command to a
   console, network, or DAW.
-- In Network LIVE, StageDesk can publish only `patch.json` and
+- In a StageFlow LIVE session, StageDesk can publish only `patch.json` and
   `smt/smt.json`. Third-party domains remain opaque and untouched; referenced
   Excel workbooks travel separately with size and SHA-256 verification.
-- LIVE alerts are ephemeral and strictly limited to genuine label changes. The
-  master enables or disables them; disabled alert mode is a normal state.
+- Label-alert reception is enabled by default. A persistent orange banner shows
+  the previous and current values until this computer acknowledges it. Each
+  recipient can disable reception locally: its pending backlog is acknowledged
+  for that recipient only, other computers are unchanged, and re-enabling never
+  resurrects old alerts.
 - **Save As** creates an autonomous `.smtshow` copy and then detaches from
-  Network LIVE without losing the current table.
+  the StageFlow LIVE session without losing the current table. A lost connection
+  is shown in red and never triggers automatic reconnection.
 
 - [Download StageFlow — free and optional](https://github.com/Mamat79/StageFlow/releases/latest)
 - [Download Dante Config Editor](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)

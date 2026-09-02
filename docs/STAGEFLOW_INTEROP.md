@@ -1,18 +1,18 @@
-# Projets StageDesk autonomes et StageFlow partagés / Standalone StageDesk and shared StageFlow projects
+# Projets StageDesk autonomes, projets StageFlow locaux et sessions LIVE
 
 **Save My Time**
 
 StageDesk propose deux parcours explicites et complets :
 
 - un fichier `.smtshow`, projet autonome possédé et enregistré par StageDesk ;
-- un dossier `.stageflow`, projet partagé dont StageDesk lit le patch commun et écrit
+- un dossier `.stageflow`, Projet StageFlow local dont StageDesk lit le patch commun et écrit
   son domaine `smt/smt.json`.
 
 Les deux formats peuvent être créés, ouverts, modifiés et enregistrés dans StageDesk.
 **StageFlow n'a pas besoin d'être installé**.
 
 StageDesk provides two explicit, complete workflows: a standalone `.smtshow`
-file and a shared `.stageflow` folder whose common patch is read by Save My
+file and a Local StageFlow `.stageflow` folder whose common patch is read by StageDesk
 Time while it owns `smt/smt.json`. Both formats can be created, opened, edited,
 and saved in StageDesk. **StageFlow does not need to be installed**.
 
@@ -46,8 +46,8 @@ mais écrit uniquement son domaine métier :
 1. **Fichier > Nouveau projet StageDesk** crée une préparation autonome ;
    **Enregistrer** ou **Enregistrer sous** produit son fichier `.smtshow`.
 2. **Fichier > Ouvrir un projet StageDesk** rouvre directement un `.smtshow`.
-3. **Fichier > Nouveau projet StageFlow** crée un dossier `.stageflow` partagé.
-4. **Fichier > Ouvrir un projet StageFlow** ouvre un dossier `.stageflow` ;
+3. **Fichier > Nouveau projet StageFlow local** crée un dossier `.stageflow`.
+4. **Fichier > Ouvrir un projet StageFlow local** ouvre un dossier `.stageflow` ;
    **Enregistrer** met à jour le patch commun et `smt/smt.json`.
 5. **Importer un ancien projet StageDesk** reprend un ancien fichier `.smt`.
 
@@ -77,16 +77,16 @@ Dante, StageMark ou CAD.
 - L'écriture passe par des fichiers temporaires, une sauvegarde vérifiée et une
   relecture finale. En cas d'échec, les fichiers précédents sont restaurés.
 
-## StageFlow LIVE V1
+## Projet StageFlow local
 
 StageDesk suit le contrat `silemio.stageflow.live` version `1.0` en lecture seule :
 
 - seul StageFlow crée et renouvelle `.live/session.json` ; StageDesk ne crée, ne
   renouvelle et ne supprime jamais ce bail ;
-- la préférence **Suivre les sessions StageFlow LIVE** est activée par défaut,
+- la préférence **Suivre les changements du projet StageFlow local** est activée par défaut,
   mais reste locale à StageDesk ;
-- les quatre états sont visibles en français et en anglais : **LIVE connecté**,
-  **LIVE disponible · suivi désactivé**, **Autonome** et **Conflit LIVE** ;
+- les états sont visibles en français et en anglais avec un point et un texte :
+  gris hors ligne, orange disponible, vert synchronisé et rouge conflit ;
 - un bail expiré, futur, trop long, surdimensionné, non canonique, lié à un autre
   `projectId` ou traversant un lien de système de fichiers est ignoré ;
 - `.live` est éphémère et n'entre ni dans les domaines métier ni dans leurs hash ;
@@ -95,16 +95,18 @@ StageDesk suit le contrat `silemio.stageflow.live` version `1.0` en lecture seul
 - le LIVE ne lance aucun matériel, socket, console ou DAW et ne remplace aucun
   geste explicite d'export réseau.
 
-## LIVE réseau multi-postes
+## Session StageFlow LIVE multi-postes
 
 Le transport réseau est distinct du watcher local. L’utilisateur lance
-explicitement la découverte LAN, choisit une session et saisit le code à six
+explicitement **Voir / rejoindre les projets StageFlow LIVE…**, choisit le projet
+et l’ordinateur hôte, puis saisit le code à six
 chiffres affiché par le maître StageFlow. Ce code n’est ni écrit dans le projet,
 ni enregistré dans les préférences.
 
-- le badge distingue **LIVE local**, **LIVE réseau**, **Autonome** et le conflit ;
-- un snapshot valide met immédiatement à jour le tableau quand le suivi est
-  actif ; le réactiver applique aussi le changement déjà en attente ;
+- le badge distingue **Projet StageFlow local**, **Session StageFlow LIVE**,
+  **Autonome** et le conflit ;
+- une Session StageFlow LIVE rejointe met toujours immédiatement à jour le
+  tableau ; le réglage de suivi ne concerne que le Projet StageFlow local ;
 - une fusion à trois voies garde la modification locale lorsqu’un même champ a
   changé des deux côtés ; aucun hash concurrent n’est écrasé à l’aveugle ;
 - StageDesk conserve en mémoire les domaines futurs ou inconnus, mais ne
@@ -114,12 +116,16 @@ ni enregistré dans les préférences.
   un nouveau classeur possédé par StageDesk est publié avant les JSON. Les
   assets des domaines tiers ne sont jamais téléchargés ni réémis par StageDesk ;
 - une perte réseau annule toutes les boucles, conserve la préparation ouverte,
-  la marque non enregistrée et repasse en mode autonome ;
+  la marque non enregistrée, affiche l’état rouge et ne tente jamais de
+  reconnexion automatique ;
 - **Enregistrer sous** produit une copie `.smtshow` autonome et neutralise les
   liens temporaires de staging ;
-- les alertes sont éphémères et limitées aux changements réels de label. Le
-  refus `409 alert-mode-off` signifie simplement que le maître n’a pas activé
-  ce mode ;
+- les alertes sont limitées aux changements réels de label. La réception est
+  activée par défaut et une bannière orange non fondée uniquement sur la couleur
+  affiche l’ancienne et la nouvelle valeur jusqu’à l’acquittement local. La
+  désactivation locale acquitte le retard du destinataire concerné uniquement ;
+  la réactivation ne ressuscite pas les anciennes alertes. Le refus
+  `409 alert-mode-off` signifie simplement que le maître n’a pas activé ce mode ;
 - une commande reçue du réseau ne peut jamais ouvrir un chemin local provenant
   d’un autre ordinateur, ni déclencher un export console, DAW ou matériel.
 
@@ -174,19 +180,22 @@ désactive ni les projets `.smtshow`, ni les projets `.stageflow`, ni les export
 
 - **File > New/Open a StageDesk project** creates or opens a standalone `.smtshow`;
   **Save** and **Save As** keep that standalone format.
-- **File > New/Open a StageFlow project** creates or opens a shared
+- **File > New/Open a local StageFlow project** creates or opens a
   `.stageflow` folder. **Save** writes the common patch and `smt/smt.json`.
 - Legacy `.smt` files remain importable.
 - Without a valid LIVE session, external changes stay manual and **Reload** is explicit.
-- With a valid LIVE session and local following enabled, each valid external
+- With a joined StageFlow LIVE session, each valid external
   patch is merged into the visible table immediately, without recalling the
   snapshot. A three-way merge keeps disjoint local and external edits together;
   same-field conflicts keep the local value and remain visibly flagged.
-- Network LIVE is joined explicitly through LAN discovery and a non-persisted
+- A StageFlow LIVE session is joined explicitly through LAN discovery and a non-persisted
   six-digit code. StageDesk publishes only `patch.json`, `smt/smt.json`, and
   its referenced `smt/assets/*` files after size and SHA-256 verification.
 - Detaching or losing the session keeps the current table as an unsaved
   standalone preparation. Save As creates an autonomous `.smtshow` copy.
+- Label-alert reception is enabled by default. A persistent banner remains until
+  local acknowledgement. Disabling reception acknowledges that recipient's
+  backlog only; re-enabling does not restore old alerts.
 - StageDesk only reads the StageFlow-owned `.live/session.json` lease. It never creates,
   renews, or removes LIVE state and never sends hardware or network commands.
 - Domain locks, session hashes, manifest rebase, atomic staging, verified

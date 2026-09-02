@@ -23,9 +23,9 @@ share the same patch between tools, it can also create, open and save a
 This workflow requires neither StageFlow, a network connection, nor
 another suite application.
 
-### Shared project between applications
+### Local StageFlow project
 
-1. Choose **New StageFlow project** or **Open a StageFlow project**.
+1. Choose **New local StageFlow project** or **Open a local StageFlow project**.
 2. StageDesk reads `project.json` and the shared `patch.json`.
 3. It saves its context to `smt/smt.json` and updates the shared patch under
    locks, without rewriting Dante, StageMark or CAD domains.
@@ -48,16 +48,22 @@ On export, a common value can be kept, overridden in one group, or hidden for
 that group. The application refuses to shrink the workbook below the last used
 channel so data cannot disappear silently.
 
-## Choose manual or LIVE operation
+## Use a local project or a StageFlow LIVE session
 
-In manual mode, **Reload** applies an external change only when requested. In
-LIVE mode, StageDesk follows the session published by StageFlow and updates
-the visible table immediately, without recalling the snapshot.
+In a Local StageFlow project, **Reload** applies an external change only when
+requested if local following is disabled. A StageFlow LIVE session is joined
+explicitly through **View / join StageFlow LIVE projects…**, after choosing the
+project and host computer and entering its six-digit code. Once joined, it
+always updates the visible table immediately, without recalling the snapshot.
 
 - edits to different fields are preserved together;
 - a same-field conflict keeps the local value and remains visible;
 - StageDesk neither creates the LIVE session nor sends hardware commands;
-- disabling following immediately returns the application to standalone use.
+- leaving the session immediately returns the application to standalone use;
+  no automatic reconnection is attempted;
+- label-alert reception is enabled by default. Each alert remains visible until
+  local acknowledgement; disabling reception acknowledges only this computer's
+  backlog and re-enabling never restores old alerts.
 
 ## Open the other tools from StageFlow
 

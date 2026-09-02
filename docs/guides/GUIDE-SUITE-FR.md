@@ -24,9 +24,9 @@ gratuit et facultatif.
 Ce parcours ne demande ni StageFlow, ni connexion réseau, ni autre
 logiciel de la suite.
 
-### Projet partagé entre plusieurs logiciels
+### Projet StageFlow local
 
-1. Choisissez **Nouveau projet StageFlow** ou **Ouvrir un projet StageFlow**.
+1. Choisissez **Nouveau projet StageFlow local** ou **Ouvrir un projet StageFlow local**.
 2. StageDesk lit `project.json` et le patch commun `patch.json`.
 3. Il enregistre son contexte dans `smt/smt.json` et met à jour le patch commun
    sous verrou, sans réécrire les domaines Dante, StageMark ou CAD.
@@ -50,17 +50,24 @@ importer celui créé par StageDesk.
 masquée pour ce groupe. L'application refuse de réduire le classeur sous le
 dernier canal utilisé afin d'éviter toute perte silencieuse.
 
-## Utiliser le mode manuel ou LIVE
+## Utiliser un projet local ou une Session StageFlow LIVE
 
-En mode manuel, **Recharger** applique une modification externe uniquement à la
-demande. En mode LIVE, StageDesk suit la session publiée par StageFlow et
-actualise immédiatement le tableau visible, sans rappeler le snapshot.
+Dans un Projet StageFlow local, **Recharger** applique une modification externe
+uniquement à la demande lorsque le suivi local est désactivé. Une Session
+StageFlow LIVE est rejointe explicitement depuis **Voir / rejoindre les projets
+StageFlow LIVE…**, après choix du projet, de l’ordinateur hôte et saisie du code
+à six chiffres. Une fois rejointe, elle actualise toujours immédiatement le
+tableau visible, sans rappeler le snapshot.
 
 - les changements portant sur des champs différents sont conservés ensemble ;
 - un conflit sur le même champ garde la valeur locale et reste signalé ;
 - StageDesk ne crée pas la session LIVE et n'envoie aucune commande au
   matériel ;
-- couper le suivi rend immédiatement l'application autonome.
+- quitter la session rend immédiatement l'application autonome ; aucune
+  reconnexion automatique n’est tentée ;
+- la réception des alertes de labels est activée par défaut. Chaque alerte reste
+  visible jusqu’à l’acquittement local ; la désactivation acquitte uniquement le
+  retard de ce poste et la réactivation ne rappelle pas les anciennes alertes.
 
 ## Ouvrir les autres outils depuis StageFlow
 
