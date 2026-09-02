@@ -1,26 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
   <title id="title">StageDesk — Save My Time</title>
-  <desc id="desc">Un tableau central relie une source et une destination dans les couleurs de la suite SiLeMI/O.</desc>
-  <rect x="12" y="12" width="488" height="488" rx="64" fill="#0F1B27" stroke="#38546A" stroke-width="12"/>
-
-  <!-- Deux flux opposés encadrent le tableau universel. -->
-  <path d="M84 154 C132 105 194 111 230 151 C258 182 278 202 309 190 C345 176 364 132 428 132"
-        fill="none" stroke="#5FD8CA" stroke-width="28" stroke-linecap="round"/>
-  <path d="M428 132 l-30 -5 M428 132 l-13 27" fill="none" stroke="#5FD8CA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M428 380 C375 417 315 407 281 369 C256 341 235 311 204 322 C170 335 151 380 84 380"
-        fill="none" stroke="#4B96BD" stroke-width="28" stroke-linecap="round"/>
-  <path d="M84 380 l29 -5 M84 380 l14 -27" fill="none" stroke="#4B96BD" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <circle cx="84" cy="154" r="28" fill="#FF9B3D" stroke="#F4F8FA" stroke-width="11"/>
-  <circle cx="428" cy="132" r="18" fill="#0F1B27" stroke="#F4F8FA" stroke-width="9"/>
-  <circle cx="428" cy="380" r="28" fill="#FF9B3D" stroke="#F4F8FA" stroke-width="11"/>
-  <circle cx="84" cy="380" r="18" fill="#0F1B27" stroke="#F4F8FA" stroke-width="9"/>
-
-  <!-- Le tableau de préparation, signature visuelle de StageDesk. -->
-  <rect x="151" y="177" width="210" height="158" rx="26" fill="#142B3A" stroke="#F4F8FA" stroke-width="10"/>
-  <rect x="177" y="202" width="158" height="22" rx="11" fill="#5FD8CA"/>
-  <rect x="177" y="244" width="116" height="14" rx="7" fill="#F4F8FA" opacity=".94"/>
-  <rect x="177" y="277" width="138" height="14" rx="7" fill="#4B96BD"/>
-  <circle cx="319" cy="251" r="7" fill="#FF9B3D"/>
-  <circle cx="319" cy="284" r="7" fill="#FF9B3D"/>
+  <desc id="desc">Symbole StageDesk : préparation audio, deux jacks et forme de signal sur fond bleu nuit.</desc>
+  <image href="smt-icon.png" x="0" y="0" width="1024" height="1024" preserveAspectRatio="xMidYMid slice"/>
 </svg>
