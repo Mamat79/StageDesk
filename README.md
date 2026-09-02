@@ -11,13 +11,14 @@
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
   <p>Préparez une fois. Adaptez. Transférez.</p>
   <p>
-    <a href="https://github.com/Mamat79/StageDesk/releases/latest"><img alt="Télécharger StageDesk v2026" src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-StageDesk%20v2026-03A9E8"></a>
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9.1/StageDesk-Setup-v2026.9.1.exe"><img alt="Télécharger StageDesk v2026" src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-StageDesk%20v2026-03A9E8"></a>
     <img alt="Windows x64" src="https://img.shields.io/badge/Windows%20x64-0B1F47">
     <img alt="Français et anglais" src="https://img.shields.io/badge/Fran%C3%A7ais%20%7C%20English-118C72">
   </p>
   <p>
     <a href="#english">English</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/latest">Télécharger</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9.1/StageDesk-Setup-v2026.9.1.exe">Installateur Windows</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9.1/StageDesk-v2026-win-x64.zip">Version portable ZIP</a> ·
     <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
     <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
