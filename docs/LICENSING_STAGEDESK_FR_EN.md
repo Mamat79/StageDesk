@@ -1,7 +1,5 @@
 # Licences StageDesk / StageDesk licensing
 
-**Save My Time**
-
 ## Français
 
 ### Ce qui ne change jamais

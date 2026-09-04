@@ -1,18 +1,16 @@
 <div align="center">
   <img src="assets/branding/smt-logo.png" width="320" alt="StageDesk">
-  <h1>StageDesk v2026.9</h1>
-  <p><strong>Save My Time</strong></p>
+  <h1>StageDesk v2027</h1>
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
   <p>Préparez une fois. Adaptez. Transférez.</p>
   <p>
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9.1/StageDesk-Setup-v2026.9.1.exe"><img alt="Télécharger StageDesk v2026" src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-StageDesk%20v2026-03A9E8"></a>
+    <a href="https://github.com/Mamat79/StageDesk/releases/latest"><img alt="Télécharger StageDesk v2027" src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-StageDesk%20v2027-03A9E8"></a>
     <img alt="Windows x64" src="https://img.shields.io/badge/Windows%20x64-0B1F47">
     <img alt="Français et anglais" src="https://img.shields.io/badge/Fran%C3%A7ais%20%7C%20English-118C72">
   </p>
   <p>
     <a href="README.md">English</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9.1/StageDesk-Setup-v2026.9.1.exe">Installateur Windows</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2026.9.1/StageDesk-v2026-win-x64.zip">Version portable ZIP</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/latest">Télécharger</a> ·
     <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
     <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
@@ -214,11 +212,19 @@ exporté respectent la capacité et la structure native de la destination.
 
 ## Télécharger StageDesk
 
-Téléchargez StageDesk v2026 depuis la
+Téléchargez StageDesk v2027 depuis la
 [page officielle des téléchargements](https://github.com/Mamat79/StageDesk/releases/latest).
 
 La version actuelle est proposée pour **Windows x64**, **macOS Intel** et
 **macOS Apple Silicon**.
+
+- [Installer Windows (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-Setup-v2027.0.0.exe)
+- [Installer sur Mac Intel (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
+- [Installer sur Mac Apple Silicon (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
+
+Sous Windows, lancez l'installateur. Sur Mac, ouvrez le DMG puis glissez StageDesk
+dans Applications. Les fichiers SHA-256 et les instructions d'installation
+accompagnent les téléchargements officiels.
 
 Consultez la [notice professionnelle en français](docs/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
@@ -262,9 +268,10 @@ flowchart LR
 StageDesk distingue trois parcours : **Projet StageDesk** (`.smtshow` autonome),
 **Projet StageFlow local** (dossier `.stageflow` ouvert sur le même poste) et
 **Session StageFlow LIVE**. Une session LIVE se rejoint uniquement par le bouton
-**Voir / rejoindre les projets StageFlow LIVE…**, après découverte sur le LAN,
+**LIVE**, en haut à droite. Le centre de connexion propose la découverte sur le LAN,
 sélection du projet et de l’ordinateur hôte, puis saisie du code à six chiffres
-affiché par StageFlow. Le code et le chemin distant ne sont jamais enregistrés.
+affiché par StageFlow. Le collage accepte les espaces et tirets et conserve les
+zéros initiaux. Le code et le chemin distant ne sont jamais enregistrés.
 
 - **Suivre les changements du projet StageFlow local** est activé par défaut et
   concerne uniquement un dossier local. Une Session StageFlow LIVE rejointe est

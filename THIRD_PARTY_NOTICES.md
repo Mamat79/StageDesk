@@ -1,5 +1,13 @@
 # Références et composants tiers
 
+## Installateur Windows - Inno Setup
+
+L'assistant d'installation Windows utilise Inno Setup 6.7.3 de Jordan Russell
+et Martijn Laan. Les notices et copyrights de l'installateur sont conservés.
+Le texte fourni avec cette version figure dans
+`third_party_licenses/Inno-Setup-LICENSE.txt` ; source officielle :
+<https://jrsoftware.org/files/is/license.txt>.
+
 ## Yamaha RCP — module Bitfocus
 
 Le projet `bitfocus/companion-module-yamaha-rcp` a été étudié comme référence d’interopérabilité :

@@ -1,7 +1,5 @@
 # Projets StageDesk autonomes, projets StageFlow locaux et sessions LIVE
 
-**Save My Time**
-
 StageDesk propose deux parcours explicites et complets :
 
 - un fichier `.smtshow`, projet autonome possédé et enregistré par StageDesk ;
@@ -13,7 +11,7 @@ Les deux formats peuvent être créés, ouverts, modifiés et enregistrés dans 
 
 StageDesk provides two explicit, complete workflows: a standalone `.smtshow`
 file and a Local StageFlow `.stageflow` folder whose common patch is read by StageDesk
-Time while it owns `smt/smt.json`. Both formats can be created, opened, edited,
+while it owns `smt/smt.json`. Both formats can be created, opened, edited,
 and saved in StageDesk. **StageFlow does not need to be installed**.
 
 ## Un seul projet, plusieurs outils

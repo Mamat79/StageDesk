@@ -17,6 +17,12 @@
 *.CLF binary
 *.clf binary
 
+# Immutable copies of the StageFlow suite guide manifest: preserve exact hashes.
+docs/guides/GUIDE-SUITE-FR.md -text
+docs/guides/SUITE-GUIDE-EN.md -text
+docs/media/ecosystem/suite-*.svg -text
+docs/SUITE_GUIDES_PROVENANCE.json -text
+
 # Native project templates must retain their exact vendor bytes on every OS.
 assets/project-templates/** binary
 assets/project-templates/README.md text eol=lf

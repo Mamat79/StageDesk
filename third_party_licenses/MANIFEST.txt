@@ -12,6 +12,7 @@ dotnet-runtime-win-x64-8.0.30-LICENSE.txt
 dotnet-runtime-win-x64-8.0.30-THIRD-PARTY-NOTICES.txt
 ExcelNumberFormat-LICENSE
 Inter-OFL-LICENSE.txt
+Inno-Setup-LICENSE.txt
 MicroCom.Runtime-LICENSE
 OpenXML-SDK-LICENSE
 OpenXML-SDK-NOTICE

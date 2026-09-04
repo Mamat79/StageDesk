@@ -1,13 +1,11 @@
-# Licence utilisateur StageDesk v2026 / StageDesk v2026 End-User License
-
-**Save My Time**
+# Licence utilisateur StageDesk v2027 / StageDesk v2027 End-User License
 
 Copyright © 2026 Mamat — SiLeMI/O by Mamat. Tous droits réservés.  
 Copyright © 2026 Mamat — SiLeMI/O by Mamat. All rights reserved.
 
 ## Français
 
-Cette licence s’applique aux exécutables officiels StageDesk v2026 distribués par
+Cette licence s’applique aux exécutables officiels StageDesk v2027 distribués par
 Mamat depuis la page de release officielle du projet.
 
 Sous réserve du respect de cette licence, l’utilisateur reçoit un droit
@@ -39,7 +37,7 @@ n’implique ni certification, ni partenariat, ni approbation de StageDesk.
 
 ## English
 
-This license applies to official StageDesk v2026 executables distributed by Mamat
+This license applies to official StageDesk v2027 executables distributed by Mamat
 from the project’s official release page.
 
 Subject to compliance with this license, the user receives a personal,
