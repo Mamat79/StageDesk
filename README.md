@@ -10,13 +10,13 @@
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
   <p>Préparez une fois. Adaptez. Transférez.</p>
   <p>
-    <a href="https://github.com/Mamat79/StageDesk/releases/latest"><img alt="Télécharger StageDesk v2027" src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-StageDesk%20v2027-03A9E8"></a>
+    <a href="https://www.silemio.com/logiciels/stagedesk"><img alt="Télécharger StageDesk v2027" src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-StageDesk%20v2027-03A9E8"></a>
     <img alt="Windows x64" src="https://img.shields.io/badge/Windows%20x64-0B1F47">
     <img alt="Français et anglais" src="https://img.shields.io/badge/Fran%C3%A7ais%20%7C%20English-118C72">
   </p>
   <p>
     <a href="#english">English</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/latest">Télécharger</a> ·
+    <a href="https://www.silemio.com/logiciels/stagedesk">Télécharger</a> ·
     <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
     <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
@@ -219,14 +219,14 @@ exporté respectent la capacité et la structure native de la destination.
 ## Télécharger StageDesk
 
 Téléchargez StageDesk v2027 depuis la
-[page officielle des téléchargements](https://github.com/Mamat79/StageDesk/releases/latest).
+[page officielle des téléchargements](https://www.silemio.com/logiciels/stagedesk).
 
-La version actuelle est proposée pour **Windows x64**, **macOS Intel** et
-**macOS Apple Silicon**.
+Dernières versions disponibles : **Windows x64 2027.0.1** et **macOS 2027.0.0**
+pour Intel et Apple Silicon.
 
-- [Installer Windows (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-Setup-v2027.0.0.exe)
-- [Installer sur Mac Intel (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
-- [Installer sur Mac Apple Silicon (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
+- [Installer Windows 2027.0.1 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.1/StageDesk-Setup-v2027.0.1.exe)
+- [Installer sur Mac Intel 2027.0.0 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
+- [Installer sur Mac Apple Silicon 2027.0.0 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
 
 Sous Windows, lancez l'installateur. Sur Mac, ouvrez le DMG puis glissez StageDesk
 dans Applications. Les fichiers SHA-256 et les instructions d'installation
@@ -334,13 +334,13 @@ StageDesk fait partie de la gamme **SiLeMI/O by Mamat**.
   <p>Transfer labels and essential settings between audio consoles and software.</p>
   <p>Prepare once. Adapt. Transfer.</p>
   <p>
-    <a href="https://github.com/Mamat79/StageDesk/releases/latest"><img alt="Download StageDesk v2027" src="https://img.shields.io/badge/Download-StageDesk%20v2027-03A9E8"></a>
+    <a href="https://www.silemio.com/en/software/stagedesk"><img alt="Download StageDesk v2027" src="https://img.shields.io/badge/Download-StageDesk%20v2027-03A9E8"></a>
     <img alt="Windows x64" src="https://img.shields.io/badge/Windows%20x64-0B1F47">
     <img alt="English and French" src="https://img.shields.io/badge/English%20%7C%20Fran%C3%A7ais-118C72">
   </p>
   <p>
     <a href="#francais">Français</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/latest">Download</a> ·
+    <a href="https://www.silemio.com/en/software/stagedesk">Download</a> ·
     <a href="docs/StageDesk-Quick-Start-EN.pdf">Quick start</a> ·
     <a href="docs/StageDesk-Professional-Guide-EN.pdf">Professional guide</a> ·
     <a href="docs/SiLeMIO-Suite-Guide-EN.pdf">SiLeMIO suite guide</a>
@@ -539,14 +539,14 @@ follow the destination's channel capacity and native structure.
 ## Download StageDesk
 
 Download StageDesk v2027 from the
-[official download page](https://github.com/Mamat79/StageDesk/releases/latest).
+[official download page](https://www.silemio.com/en/software/stagedesk).
 
-The current release is available for **Windows x64**, **macOS Intel**, and
-**macOS Apple Silicon**.
+Latest available versions: **Windows x64 2027.0.1** and **macOS 2027.0.0**
+for Intel and Apple Silicon.
 
-- [Windows installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-Setup-v2027.0.0.exe)
-- [Mac Intel installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
-- [Mac Apple Silicon installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
+- [Windows 2027.0.1 installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.1/StageDesk-Setup-v2027.0.1.exe)
+- [Mac Intel 2027.0.0 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
+- [Mac Apple Silicon 2027.0.0 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
 
 On Windows, run the installer. On Mac, open the DMG and drag StageDesk into
 Applications. SHA-256 files and installation instructions accompany each release.
