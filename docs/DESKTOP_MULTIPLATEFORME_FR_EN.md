@@ -8,13 +8,13 @@ et logiciels audio, dans une interface commune en français ou en anglais.
 ### Installer
 
 Téléchargez uniquement depuis la
-[release officielle StageDesk](https://github.com/Mamat79/StageDesk/releases/latest).
+[page officielle StageDesk](https://www.silemio.com/logiciels/stagedesk).
 
-- **Windows x64** : lancez `StageDesk-Setup-v2027.0.0.exe`. L'assistant installe
+- **Windows x64** : lancez `StageDesk-Setup-v2027.0.2.exe`. L'assistant installe
   `StageDesk.exe` pour votre compte, crée le raccourci **StageDesk v2027** et
   propose une désinstallation standard dans les applications Windows.
-- **Mac Intel** : ouvrez `StageDesk-v2027.0.0-osx-x64.dmg`.
-- **Mac Apple Silicon** : ouvrez `StageDesk-v2027.0.0-osx-arm64.dmg`.
+- **Mac Intel** : ouvrez `StageDesk-v2027.0.2-osx-x64.dmg`.
+- **Mac Apple Silicon** : ouvrez `StageDesk-v2027.0.2-osx-arm64.dmg`.
 - **Sur Mac**, glissez **StageDesk.app** dans **Applications**, puis lancez-le.
   Si une version est déjà présente, enregistrez et fermez vos projets avant remplacement.
 
@@ -59,8 +59,11 @@ formats et prérequis constructeur, notamment les bibliothèques SSL sous Window
 Un remplacement explicitement choisi crée d'abord un backup voisin vérifié
 `Bckp_`, sans sous-dossier. Les projets utilisateur, réglages et activations
 ne sont pas effacés par une mise à jour ou une désinstallation standard.
-La recherche de mises à jour compare la version complète et vérifie le SHA-256
-du paquet correspondant au système avant de le présenter.
+La recherche de mises à jour compare la version complète à la dernière version
+stable disposant d'un installateur pour votre système et votre architecture,
+accompagné de son fichier SHA-256. Un correctif réservé à une autre plateforme
+n'est jamais proposé. Après confirmation du téléchargement, le SHA-256 du
+paquet est vérifié avant de le présenter ; l'installation reste manuelle.
 
 Consultez la [licence utilisateur](EULA_FR_EN.md) et la
 [notice de licence](LICENSING_STAGEDESK_FR_EN.md). StageFlow est gratuit et optionnel.
@@ -73,13 +76,13 @@ consoles and software through one French or English interface.
 ### Install
 
 Download only from the
-[official StageDesk release](https://github.com/Mamat79/StageDesk/releases/latest).
+[official StageDesk page](https://www.silemio.com/en/software/stagedesk).
 
-- **Windows x64**: run `StageDesk-Setup-v2027.0.0.exe`. The wizard installs
+- **Windows x64**: run `StageDesk-Setup-v2027.0.2.exe`. The wizard installs
   `StageDesk.exe` for your account, creates the **StageDesk v2027** shortcut,
   and registers standard uninstallation in Windows Apps.
-- **Intel Mac**: open `StageDesk-v2027.0.0-osx-x64.dmg`.
-- **Apple Silicon Mac**: open `StageDesk-v2027.0.0-osx-arm64.dmg`.
+- **Intel Mac**: open `StageDesk-v2027.0.2-osx-x64.dmg`.
+- **Apple Silicon Mac**: open `StageDesk-v2027.0.2-osx-arm64.dmg`.
 - **On Mac**, drag **StageDesk.app** into **Applications**, then launch it.
   Save and close projects before replacing an existing version.
 
@@ -122,7 +125,10 @@ vendor prerequisites, including SSL libraries on Windows.
 An explicitly selected replacement first creates a verified neighbouring
 `Bckp_` backup without a subfolder. Updates and standard uninstallation do not
 erase user projects, settings or activation. The update check compares the full
-installed version and verifies the matching package's SHA-256 before presenting it.
+installed version with the highest stable release containing an installer for
+your system and architecture, together with its SHA-256 file. Fixes for other
+platforms are never offered. After you confirm the download, the package's
+SHA-256 is verified before presenting it; installation remains manual.
 
 See the [user licence](EULA_FR_EN.md) and
 [licensing guide](LICENSING_STAGEDESK_FR_EN.md). StageFlow is free and optional.

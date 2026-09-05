@@ -221,16 +221,19 @@ exporté respectent la capacité et la structure native de la destination.
 Téléchargez StageDesk v2027 depuis la
 [page officielle des téléchargements](https://www.silemio.com/logiciels/stagedesk).
 
-Dernières versions disponibles : **Windows x64 2027.0.1** et **macOS 2027.0.0**
-pour Intel et Apple Silicon.
+La version actuelle est proposée pour **Windows x64**, **macOS Intel** et
+**macOS Apple Silicon**.
 
-- [Installer Windows 2027.0.1 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.1/StageDesk-Setup-v2027.0.1.exe)
-- [Installer sur Mac Intel 2027.0.0 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
-- [Installer sur Mac Apple Silicon 2027.0.0 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
+- [Installer Windows 2027.0.2 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.2/StageDesk-Setup-v2027.0.2.exe)
+- [Installer sur Mac Intel 2027.0.2 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.2/StageDesk-v2027.0.2-osx-x64.dmg)
+- [Installer sur Mac Apple Silicon 2027.0.2 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.2/StageDesk-v2027.0.2-osx-arm64.dmg)
 
 Sous Windows, lancez l'installateur. Sur Mac, ouvrez le DMG puis glissez StageDesk
 dans Applications. Les fichiers SHA-256 et les instructions d'installation
 accompagnent les téléchargements officiels.
+
+Dans StageDesk, **Aide > Rechercher des mises à jour** propose la dernière version
+stable adaptée à cet ordinateur et vérifie le téléchargement avant installation.
 
 Consultez la [notice professionnelle en français](docs/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
@@ -541,15 +544,18 @@ follow the destination's channel capacity and native structure.
 Download StageDesk v2027 from the
 [official download page](https://www.silemio.com/en/software/stagedesk).
 
-Latest available versions: **Windows x64 2027.0.1** and **macOS 2027.0.0**
-for Intel and Apple Silicon.
+The current release is available for **Windows x64**, **macOS Intel**, and
+**macOS Apple Silicon**.
 
-- [Windows 2027.0.1 installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.1/StageDesk-Setup-v2027.0.1.exe)
-- [Mac Intel 2027.0.0 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-x64.dmg)
-- [Mac Apple Silicon 2027.0.0 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.0/StageDesk-v2027.0.0-osx-arm64.dmg)
+- [Windows 2027.0.2 installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.2/StageDesk-Setup-v2027.0.2.exe)
+- [Mac Intel 2027.0.2 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.2/StageDesk-v2027.0.2-osx-x64.dmg)
+- [Mac Apple Silicon 2027.0.2 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.0.2/StageDesk-v2027.0.2-osx-arm64.dmg)
 
 On Windows, run the installer. On Mac, open the DMG and drag StageDesk into
 Applications. SHA-256 files and installation instructions accompany each release.
+
+In StageDesk, **Help > Check for updates** offers the latest stable version
+matching this computer and verifies the download before installation.
 
 Read the [professional guide in English](docs/StageDesk-Professional-Guide-EN.pdf)
 for the complete workflow and StageDesk features.

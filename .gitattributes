@@ -22,6 +22,7 @@ docs/guides/GUIDE-SUITE-FR.md -text
 docs/guides/SUITE-GUIDE-EN.md -text
 docs/media/ecosystem/suite-*.svg -text
 docs/SUITE_GUIDES_PROVENANCE.json -text
+docs/suite-guides-manifest.json -text
 
 # Native project templates must retain their exact vendor bytes on every OS.
 assets/project-templates/** binary
