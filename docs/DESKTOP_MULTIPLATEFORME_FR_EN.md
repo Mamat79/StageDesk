@@ -10,7 +10,7 @@ et logiciels audio, dans une interface commune en français ou en anglais.
 Téléchargez uniquement depuis la
 [page officielle StageDesk](https://www.silemio.com/logiciels/stagedesk).
 
-- **Windows x64** : lancez `StageDesk-Setup-v2027.0.3.exe`. L'assistant installe
+- **Windows x64** : lancez `StageDesk-Setup-v2027.0.4.exe`. L'assistant installe
   `StageDesk.exe` pour votre compte, crée le raccourci **StageDesk v2027** et
   propose une désinstallation standard dans les applications Windows.
 - **Mac Intel** : ouvrez `StageDesk-v2027.0.2-osx-x64.dmg`.
@@ -78,7 +78,7 @@ consoles and software through one French or English interface.
 Download only from the
 [official StageDesk page](https://www.silemio.com/en/software/stagedesk).
 
-- **Windows x64**: run `StageDesk-Setup-v2027.0.3.exe`. The wizard installs
+- **Windows x64**: run `StageDesk-Setup-v2027.0.4.exe`. The wizard installs
   `StageDesk.exe` for your account, creates the **StageDesk v2027** shortcut,
   and registers standard uninstallation in Windows Apps.
 - **Intel Mac**: open `StageDesk-v2027.0.2-osx-x64.dmg`.
