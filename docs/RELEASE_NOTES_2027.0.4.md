@@ -4,6 +4,17 @@ Version Windows : 2027.0.4.
 
 ## Français
 
+- Le centre « Connexion StageFlow » reprend maintenant l'organisation commune
+  de la suite : projet courant, projet local autonome, session StageFlow LIVE et
+  accès à l'intégration mobile StageDesk depuis un même écran non bloquant.
+- La découverte distingue clairement les sessions du même PC et du réseau
+  local. Le projet et l'ordinateur hôte restent lisibles ; l'adresse technique
+  est rangée dans un détail secondaire.
+- Le volet « Télécommande StageDesk » décrit les commandes réellement relayées
+  par StageFlow. Le QR code et le portail mobile sont créés et hébergés par
+  StageFlow ; StageDesk ne prétend pas démarrer un serveur QR propre.
+- L'entrée d'en-tête reste toujours nommée « Connexion StageFlow » et affiche
+  son état sur une seconde ligne, y compris le projet rejoint.
 - Le nom public est désormais **StageDesk** partout dans les documents livrés,
   les exemples, la page d’achat et les métadonnées publiques.
 - L’ancien sous-titre n’est plus affiché comme une marque active.
@@ -23,6 +34,17 @@ une future compilation et recette natives.
 
 ## English
 
+- The “StageFlow connection” center now follows the suite-wide layout: current
+  project, standalone local project, StageFlow LIVE session, and access to the
+  StageDesk mobile integration from one non-blocking screen.
+- Discovery clearly distinguishes sessions on the same computer and on the
+  local network. The project and host computer remain readable, while the
+  technical address is moved to secondary details.
+- The “StageDesk remote control” pane documents only the commands actually
+  relayed by StageFlow. The QR code and mobile portal are created and hosted by
+  StageFlow; StageDesk does not claim to start its own QR server.
+- The header entry remains consistently named “StageFlow connection” and shows
+  its state on a second line, including the joined project.
 - The public product name is now **StageDesk** throughout bundled documents,
   examples, the purchase page and public metadata.
 - The former subtitle is no longer presented as an active brand.
