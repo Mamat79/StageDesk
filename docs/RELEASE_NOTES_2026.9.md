@@ -1,9 +1,9 @@
-# StageDesk v2026.9 — Save My Time
+# StageDesk v2026.9
 
 ## Français
 
 Cette version fait entrer définitivement l’application dans la suite SiLeMI/O
-sous le nom **StageDesk**, avec **Save My Time** comme sous-titre.
+sous son nom public unique **StageDesk**.
 
 ### Ce qui change
 
@@ -29,7 +29,7 @@ projets utilisateur sont donc retrouvés automatiquement après la mise à jour.
 ## English
 
 This release permanently brings the application into the SiLeMI/O suite under
-the name **StageDesk**, with **Save My Time** as its subtitle.
+its single public name, **StageDesk**.
 
 ### What changes
 

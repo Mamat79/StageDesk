@@ -1,6 +1,6 @@
 # StageDesk v2026 — état réel des connecteurs / actual connector status
 
-**Save My Time**
+**StageDesk**
 
 [Français](#français) · [English](#english)
 
