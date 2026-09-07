@@ -4,6 +4,16 @@ Version Windows : 2027.0.4.
 
 ## Français
 
+- L'aller-retour StageDesk / StageFlow conserve les champs inconnus du patch,
+  les identifiants et les données des autres modules. « Enregistrer sous » copie
+  les domaines, ressources et classeurs liés du projet local ; les sessions LIVE
+  temporaires ne sont pas recopiées. Les conflits restent signalés.
+- Le bouton « Guide » ouvre la notice StageDesk dans la langue choisie.
+  Le guide commun reste accessible par « Guide de la suite » dans Aide.
+- La notice professionnelle FR/EN détaille les compatibilités et leurs limites,
+  l'échange StageFlow, le modèle Excel de canaux et le classeur de groupes V3.
+  « Valeurs spécifiques au groupe » remplace le terme ambigu « Surcharge » ;
+  les indications Balances / Soundcheck du planning restent distinctes.
 - Le centre « Connexion StageFlow » reprend maintenant l'organisation commune
   de la suite : projet courant, projet local autonome, session StageFlow LIVE et
   accès à l'intégration mobile StageDesk depuis un même écran non bloquant.
@@ -24,8 +34,8 @@ Version Windows : 2027.0.4.
 
 Les identifiants nécessaires à la compatibilité restent inchangés : projets
 `.smt` et `.smtshow`, domaine `smt/smt.json`, codes de licence, identifiant
-d’application, alias de mise à jour et canal historique. Aucune fonction métier,
-aucun projet utilisateur et aucun réglage ne sont modifiés par ce correctif.
+d’application, alias de mise à jour et canal historique. Les profils, licences
+et données utilisateur existants restent conservés.
 
 La version publique macOS reste 2027.0.2 pour Intel et Apple Silicon jusqu’à
 une future compilation et recette natives.
@@ -34,6 +44,16 @@ une future compilation et recette natives.
 
 ## English
 
+- StageDesk / StageFlow round trips preserve unknown patch fields, identities
+  and other modules' data. Save As copies local project domains, resources and
+  linked workbooks; temporary LIVE sessions are not copied. Conflicts remain
+  explicit.
+- The Guide button opens the StageDesk manual in the selected language.
+  The common guide stays under Suite guide in Help.
+- The FR/EN professional manual details compatibility and limits, StageFlow
+  exchange, the channel Excel template and the V3 group workbook.
+  Group-specific values and Soundcheck scheduling information are clearly
+  distinguished.
 - The “StageFlow connection” center now follows the suite-wide layout: current
   project, standalone local project, StageFlow LIVE session, and access to the
   StageDesk mobile integration from one non-blocking screen.
@@ -54,8 +74,7 @@ une future compilation et recette natives.
 
 Compatibility identifiers remain unchanged: `.smt` and `.smtshow` projects,
 the `smt/smt.json` domain, license codes, application identifier, update alias
-and historical channel. This maintenance release changes no product feature,
-user project or setting.
+and historical channel. Existing profiles, licences and user data are preserved.
 
 The public macOS version remains 2027.0.2 for Intel and Apple Silicon until a
 future native build and acceptance.

@@ -60,28 +60,28 @@ endobj
 8 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/Mamat79/StageFlow/releases/latest)
+/S /URI /Type /Action /URI (https://www.silemio.com/en/downloads#stageflow)
 >> /Border [ 0 0 0 ] /Rect [ 72.29371 360.6222 236.3169 371.6622 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
+/S /URI /Type /Action /URI (https://www.silemio.com/en/downloads)
 >> /Border [ 0 0 0 ] /Rect [ 72.29371 342.0222 221.2322 353.0622 ] /Subtype /Link /Type /Annot
 >>
 endobj
 10 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/Mamat79/StageMark/releases/latest)
+/S /URI /Type /Action /URI (https://www.silemio.com/en/downloads#stagemark)
 >> /Border [ 0 0 0 ] /Rect [ 72.29371 323.4222 159.8554 334.4622 ] /Subtype /Link /Type /Annot
 >>
 endobj
 11 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://github.com/Mamat79/StageMon/releases/latest)
+/S /URI /Type /Action /URI (https://www.silemio.com/en/downloads#stagemon)
 >> /Border [ 0 0 0 ] /Rect [ 72.29371 304.8222 158.0002 315.8622 ] /Subtype /Link /Type /Annot
 >>
 endobj
@@ -311,7 +311,7 @@ endobj
 endobj
 23 0 obj
 <<
-/Author (Mamat - SiLeMI/O) /CreationDate (D:20260905002836+02'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260905002836+02'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+/Author (Mamat - SiLeMI/O) /CreationDate (D:20260907002012+02'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260907002012+02'00') /Producer (ReportLab PDF Library - \(opensource\)) 
   /Subject (StageDesk v2027 quick start) /Title (StageDesk \267 v2027) /Trapped /False
 >>
 endobj
@@ -367,32 +367,32 @@ xref
 0000250930 00000 n 
 0000251198 00000 n 
 0000251395 00000 n 
-0000251599 00000 n 
-0000251813 00000 n 
-0000252018 00000 n 
-0000252222 00000 n 
-0000252422 00000 n 
-0000252742 00000 n 
-0000253492 00000 n 
-0000269809 00000 n 
-0000270075 00000 n 
-0000271439 00000 n 
-0000272188 00000 n 
-0000290988 00000 n 
-0000291243 00000 n 
-0000292592 00000 n 
-0000292679 00000 n 
-0000292982 00000 n 
-0000293056 00000 n 
-0000293160 00000 n 
-0000293259 00000 n 
-0000293332 00000 n 
-0000295105 00000 n 
-0000297792 00000 n 
+0000251593 00000 n 
+0000251781 00000 n 
+0000251980 00000 n 
+0000252178 00000 n 
+0000252378 00000 n 
+0000252698 00000 n 
+0000253448 00000 n 
+0000269765 00000 n 
+0000270031 00000 n 
+0000271395 00000 n 
+0000272144 00000 n 
+0000290944 00000 n 
+0000291199 00000 n 
+0000292548 00000 n 
+0000292635 00000 n 
+0000292938 00000 n 
+0000293012 00000 n 
+0000293116 00000 n 
+0000293215 00000 n 
+0000293288 00000 n 
+0000295061 00000 n 
+0000297748 00000 n 
 trailer
 <<
 /ID 
-[<4d47217b755c283469695fa11960ebbb><4d47217b755c283469695fa11960ebbb>]
+[<5cdb0788efded1afa5cb769b3e4ca46e><5cdb0788efded1afa5cb769b3e4ca46e>]
 % ReportLab generated PDF document -- digest (opensource)
 
 /Info 23 0 R
@@ -400,5 +400,5 @@ trailer
 /Size 31
 >>
 startxref
-300399
+300355
 %%EOF
