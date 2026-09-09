@@ -1,4 +1,4 @@
-# StageDesk v2026 — état réel des connecteurs / actual connector status
+# StageDesk v2027 — état réel des connecteurs / actual connector status
 
 **StageDesk**
 
@@ -6,7 +6,13 @@
 
 ## Français
 
-Cette matrice décrit les parcours réellement exposés par StageDesk v2026. Le mot
+La matrice ci-dessous conserve la recette des parcours fichier. Pour le réseau
+ajouté à StageDesk v2027, la référence est la [matrice LAN](NETWORK_CONSOLES.md) :
+DM7, RIVAGE PM, CL/QL, TF, DM3, dLive, Avantis, X32/M32 et WING sont exposés avec
+leurs limites ; les mentions réseau historiques ci-dessous décrivent l'ancienne recette.
+Aucune validation réseau sur console physique n'est acquise.
+
+Cette matrice décrit les parcours fichier exposés par StageDesk. Le mot
 **natif** signifie que StageDesk traite le format de projet, de session ou de scène de
 la destination ; il ne signifie ni compatibilité totale, ni certification du
 constructeur. Les champs transférés varient selon le connecteur.
@@ -106,7 +112,13 @@ formellement reconnues. Preuves :
 
 ## English
 
-This matrix lists the workflows actually exposed by StageDesk v2026. **Native** means
+The table below preserves the file-workflow qualification record. For the new
+StageDesk v2027 network workflows, use the [LAN matrix](NETWORK_CONSOLES.md):
+DM7, RIVAGE PM, CL/QL, TF, DM3, dLive, Avantis, X32/M32 and WING are exposed with
+explicit limits. Historical network entries below describe the earlier qualification.
+No physical console network validation has been completed.
+
+This matrix lists StageDesk file workflows. **Native** means
 that StageDesk handles the destination project, session or scene format; it does not
 mean complete fidelity or vendor certification. Transferred fields vary by
 connector.

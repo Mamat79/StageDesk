@@ -41,6 +41,19 @@ StageDesk conserve une organisation cohérente d'une machine à l'autre.
 - Conservez votre préparation lorsque la source ou la destination change.
 - Protégez chaque projet remplacé grâce à une sauvegarde automatique `Bckp_`.
 
+## Connexion directe aux consoles sur le LAN
+
+Le mode **Réseau** propose une IP manuelle ou une détection volontaire, puis la
+lecture de Current et l'envoi des paramètres cochés. Il couvre Yamaha DM7,
+RIVAGE PM, CL/QL, TF, DM3, Allen & Heath dLive/Avantis, X32/M32 et WING, avec des
+champs et capacités différents selon la famille. X32/M32 ajoute un import de scène
+par rappel explicite et la mémorisation de Current dans un emplacement vide.
+
+Chaque écriture exige une confirmation et une sauvegarde des champs relus.
+Cette sauvegarde n'est pas un show complet. Les tests logiciels TCP/UDP ne
+remplacent pas la recette hors antenne sur une console physique, qui reste à faire.
+Consultez les [procédures et limites réseau](docs/NETWORK_CONSOLES.md).
+
 ## Un flux simple en trois étapes
 
 | 1 · Récupérer | 2 · Adapter | 3 · Transférer |
@@ -368,6 +381,17 @@ different systems.
 - Automatically follow the format and capacity of the selected model.
 - Keep the preparation available when the source or destination changes.
 - Protect every replaced project with an automatic `Bckp_` backup.
+
+## Direct console connection over the LAN
+
+**Network** offers manual IP or explicit discovery, Current import and checked
+parameter sending for Yamaha DM7, RIVAGE PM, CL/QL, TF, DM3, Allen & Heath
+dLive/Avantis, X32/M32 and WING. Fields and capacities differ by family.
+X32/M32 also supports explicit scene recall/import and storing Current in an
+empty slot. Writes require confirmation and a backup of readable fields;
+this is not a complete show. TCP/UDP software tests do not replace off-air
+validation on physical consoles, which remains outstanding.
+See the [network procedures and limitations](docs/NETWORK_CONSOLES.md).
 
 ## A simple three-step workflow
 

@@ -35,6 +35,19 @@ StageDesk conserve une organisation cohérente d'une machine à l'autre.
 - Conservez votre préparation lorsque la source ou la destination change.
 - Protégez chaque projet remplacé grâce à une sauvegarde automatique `Bckp_`.
 
+## Connexion directe aux consoles sur le LAN
+
+Le mode **Réseau** propose une IP manuelle ou une détection volontaire, puis la
+lecture de Current et l'envoi des paramètres cochés. Il couvre Yamaha DM7,
+RIVAGE PM, CL/QL, TF, DM3, Allen & Heath dLive/Avantis, X32/M32 et WING, avec des
+champs et capacités différents selon la famille. X32/M32 ajoute un import de scène
+par rappel explicite et la mémorisation de Current dans un emplacement vide.
+
+Chaque écriture exige une confirmation et une sauvegarde des champs relus.
+Cette sauvegarde n'est pas un show complet. Les tests logiciels TCP/UDP ne
+remplacent pas la recette hors antenne sur une console physique, qui reste à faire.
+Consultez les [procédures et limites réseau](docs/NETWORK_CONSOLES.md).
+
 ## Un flux simple en trois étapes
 
 | 1 · Récupérer | 2 · Adapter | 3 · Transférer |
