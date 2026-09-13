@@ -12,9 +12,8 @@ sous son nom public unique **StageDesk**.
   `.smt` et toutes les fonctions de transfert existantes conservés ;
 - noms proposés pour les nouveaux projets, tableaux et exports alignés sur
   StageDesk ;
-- mise à jour sécurisée depuis le nouveau dépôt public `Mamat79/StageDesk` ;
-- repli strict vers l’ancien dépôt `Save-My-Time-SMT` uniquement lorsqu’il est
-  nécessaire aux versions déjà installées ;
+- mise à jour sécurisée exclusivement depuis le dépôt public
+  `Mamat79/StageDesk` ;
 - paquet principal `StageDesk-v2026-win-x64.zip` et alias binaire identique
   `SMT-v2026-win-x64.zip` pour la continuité des mises à jour 2026.8 ;
 - paquets natifs autonomes pour macOS Intel (`osx-x64`) et Apple Silicon
@@ -38,9 +37,7 @@ its single public name, **StageDesk**.
 - standalone `.smtshow` projects, shared `.stageflow` projects, legacy `.smt`
   files, and every existing transfer feature are preserved;
 - suggested names for new projects, tables, and exports now use StageDesk;
-- secure updates prefer the new public `Mamat79/StageDesk` repository;
-- the legacy `Save-My-Time-SMT` repository is used only as a strict fallback
-  for already-installed versions;
+- secure updates use only the public `Mamat79/StageDesk` repository;
 - the primary `StageDesk-v2026-win-x64.zip` package is accompanied by a
   byte-identical `SMT-v2026-win-x64.zip` compatibility alias for 2026.8;
 - self-contained native packages are also provided for macOS Intel (`osx-x64`)
