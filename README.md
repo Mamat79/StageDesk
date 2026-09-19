@@ -253,10 +253,10 @@ pour découvrir le parcours complet et les fonctions de StageDesk.
 
 ## Licence permanente
 
-- 30 jours sans rappel au premier lancement ;
+- pendant les 30 jours d'essai, le rappel d'achat au démarrage est refermable immédiatement ;
 - après 30 jours, StageDesk et toutes ses fonctions restent utilisables ;
-- le rappel de démarrage reste affiché 10 secondes avant de pouvoir continuer ;
-- une licence permanente coûte **29 € TTC** et supprime ce rappel ;
+- après l'essai, le rappel affiche 60 secondes d'attente au démarrage uniquement ;
+- une licence permanente coûte **29 € TTC** et supprime le rappel et l'attente ;
 - le code de licence est envoyé après l’achat ;
 - StageDesk affiche les activations disponibles, puis permet de **désactiver cet
   ordinateur** pour libérer une place ;
@@ -586,10 +586,10 @@ for the complete workflow and StageDesk features.
 
 ## Permanent license
 
-- 30 reminder-free days after first launch;
+- during the 30-day trial, the startup purchase reminder can be closed immediately;
 - after 30 days, StageDesk and every feature remain usable;
-- the startup reminder stays open for 10 seconds before continuing;
-- a permanent license costs **€29 including tax** and removes the reminder;
+- after the trial, the reminder shows a 60-second startup-only wait;
+- a permanent license costs **€29 including tax** and removes the reminder and delay;
 - the license code is sent after purchase;
 - StageDesk shows available activations and provides **Deactivate this
   computer** to release a seat;
