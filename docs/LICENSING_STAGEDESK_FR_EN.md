@@ -4,10 +4,12 @@
 
 ### Ce qui ne change jamais
 
-StageDesk n’est pas bloqué à la fin de l’essai. Les 30 premiers jours sont sans
-rappel. Ensuite, une fenêtre de démarrage reste visible pendant 10 secondes,
-mais toutes les fonctions et tous les fichiers restent accessibles. Une licence
-permanente supprime uniquement ce rappel.
+StageDesk n’est pas bloqué à la fin de l’essai. Pendant les 30 premiers jours,
+un rappel d’achat au démarrage est refermable immédiatement. Ensuite, la fenêtre
+reste visible pendant 60 secondes au démarrage uniquement, puis toutes les
+fonctions et tous les fichiers restent accessibles. Elle n’interrompt jamais
+une session ou un travail en cours. Une licence permanente valide supprime le
+rappel et l’attente.
 
 ### Achat
 
@@ -30,9 +32,11 @@ l’activation locale. StageDesk et les projets restent utilisables.
 
 ### What never changes
 
-StageDesk is not locked when the trial ends. The first 30 days have no reminder.
-Afterwards, a startup window remains visible for 10 seconds, but every feature
-and file remains available. A permanent license only removes that reminder.
+StageDesk is not locked when the trial ends. During the first 30 days, the
+startup purchase reminder can be closed immediately. Afterwards, the window
+remains visible for 60 seconds at startup only, then every feature and file
+remains available. It never interrupts an active session or work in progress.
+A valid permanent license removes both the reminder and the delay.
 
 ### Purchase
 
