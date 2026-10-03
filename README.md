@@ -54,6 +54,12 @@ Cette sauvegarde n'est pas un show complet. Les tests logiciels TCP/UDP ne
 remplacent pas la recette hors antenne sur une console physique, qui reste à faire.
 Consultez les [procédures et limites réseau](docs/NETWORK_CONSOLES.md).
 
+StageDesk 2027.1.4 ajoute les labels Current en Ember+ pour mc²36 MKII 32,
+mc²56 MKIII et mc²96 sous 12.4.0.0, avec IPv4 et port explicitement configurés.
+Les essais réussis dans mxGUI ne constituent pas une validation sur console
+physique. Consultez la
+[notice Lawo et ses limites](docs/LAWO_NATIVE_AND_NETWORK.md).
+
 ## Un flux simple en trois étapes
 
 | 1 · Récupérer | 2 · Adapter | 3 · Transférer |
@@ -172,6 +178,16 @@ exporté respectent la capacité et la structure native de la destination.
   sélectionné, avec une capacité de 32 à 108 entrées selon ce modèle ;
 - la création d’un nouveau snapshot par duplication est proposée uniquement
   lorsque StageDesk reconnaît la topologie nécessaire dans la session.
+
+### Lawo
+
+- mc²66 MKII sous 5.14 et mc²36 MKII 32, mc²56 MKIII, mc²96 sous 12.4 ;
+- lecture des productions `.lpn`, de Current et des snapshots, transfert des
+  labels vers un snapshot existant ou un nouveau snapshot par duplication ;
+- nouvelle production depuis votre seed natif privé : les données héritées
+  sont conservées, sans modèle usine redistribué ni conversion entre générations ;
+- labels uniquement ; réseau moderne limité à Current, sans rappel ni
+  mémorisation de snapshot. Le profil 5.14 reste limité aux fichiers.
 
 ### Midas
 
@@ -393,6 +409,11 @@ this is not a complete show. TCP/UDP software tests do not replace off-air
 validation on physical consoles, which remains outstanding.
 See the [network procedures and limitations](docs/NETWORK_CONSOLES.md).
 
+StageDesk 2027.1.4 adds Current labels over Ember+ for mc²36 MKII 32,
+mc²56 MKIII and mc²96 running 12.4.0.0, with an explicit IPv4 address and port.
+Successful mxGUI tests are not physical-console qualification. See the
+[Lawo guide and limitations](docs/LAWO_NATIVE_AND_NETWORK.md).
+
 ## A simple three-step workflow
 
 | 1 · Retrieve | 2 · Adapt | 3 · Transfer |
@@ -508,6 +529,16 @@ follow the destination's channel capacity and native structure.
   model, with a 32-to-108-input capacity depending on that model;
 - new-snapshot duplication is offered only when StageDesk recognises the required
   topology in the session.
+
+### Lawo
+
+- mc²66 MKII running 5.14, and mc²36 MKII 32, mc²56 MKIII, mc²96 running 12.4;
+- `.lpn` production, Current and snapshot import; label transfer to an existing
+  snapshot or a new snapshot created by duplication;
+- new production from your private native seed: inherited data are retained,
+  without a redistributed factory template or cross-generation conversion;
+- labels only; modern networking targets Current, without recalling or storing
+  snapshots. The 5.14 profile remains file-only.
 
 ### Midas
 

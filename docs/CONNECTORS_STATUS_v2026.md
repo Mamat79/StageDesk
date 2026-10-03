@@ -12,6 +12,10 @@ DM7, RIVAGE PM, CL/QL, TF, DM3, dLive, Avantis, X32/M32 et WING sont exposés av
 leurs limites ; les mentions réseau historiques ci-dessous décrivent l'ancienne recette.
 Aucune validation réseau sur console physique n'est acquise.
 
+Le connecteur Lawo de StageDesk 2027.1.4 possède une
+[notice dédiée](LAWO_NATIVE_AND_NETWORK.md) distingue les quatre profils natifs
+testés, le réseau Ember+ moderne qualifié dans mxGUI et les limites legacy.
+
 Cette matrice décrit les parcours fichier exposés par StageDesk. Le mot
 **natif** signifie que StageDesk traite le format de projet, de session ou de scène de
 la destination ; il ne signifie ni compatibilité totale, ni certification du
@@ -48,6 +52,7 @@ pas les droits de redistribution, qui restent régis par leurs titulaires.
 | Behringer WING | Oui : `.snap` `snapshot.11` | Label, couleur, icône, mute, fader | Oui : modèle embarqué | Snapshot unique | Non | Témoin rouvert dans WING Edit 3.3.3 ; multi-snapshots et matériel à valider |
 | Behringer X32 / Midas M32 | Oui : scène `.scn` | Label, couleur, icône, DCA, HPF, mute, fader | Oui : scène v4 minimale partielle | Scène unique copiée | Non | Un Nouveau projet StageDesk a été chargé dans X32-Edit 4.4 avec labels/couleurs visibles ; M32-Edit, `.shw`, OSC et matériel non validés |
 | DiGiCo SD / Quantum V2242 | Oui : Current et snapshots nommés d’une session `.ses` ; 13 modèles, 32 à 108 entrées | Labels ASCII | Oui : seed exact par modèle | Snapshot existant ; nouveau snapshot lorsque la topologie est reconnue ; remplacement après confirmation et backup `Bckp_` | Non | Treize seeds/sorties contrôlés et relus par StageDesk ; écritures SD9 existante (`DCBD8058…`) et nouveau snapshot (`2CE27E77…`) rappelées dans SD9 Offline V2242 |
+| Lawo mc² | `.lpn`, Current et snapshots, révisions natives 8/73 | Labels uniquement ; court conservé en 12.4 | Seed natif privé appartenant à l'utilisateur, données héritées conservées | Snapshot existant ou nouveau par duplication ; backup avant remplacement | Current Ember+ : mc²36 MKII 32, mc²56 MKIII, mc²96 en 12.4.0.0 ; IPv4/port explicites ; 5.14 fichier seul | Chargement, sauvegarde native et relecture dans mxGUI 5.14/12.4 sur les quatre profils ; écritures réseau et relectures natives des trois modernes ; console physique non validée |
 | Midas HD96 | Oui : scènes `.show` et classeur constructeur 144 entrées | Scène existante ou nouvelle dans une copie ; classeur Excel | Non exposé pour les shows natifs | Scène existante ou nouvelle ; import/export Excel | Non | Show officiel copié, écrit et relu par StageDesk avec source préservée ; chargement final HD96 Editor et matériel à confirmer |
 | Soundcraft Vi | Oui : Start Snapshot et snapshots hérités | Label long et couleur | Oui : huit modèles embarqués | Start Snapshot ou snapshot hérité ; CueList moderne non modifiée | Non | Vi600 rouverte ; autres modèles et matériel à valider |
 | SSL Live / SOLSA et System T | Oui : cues `.show` via SOLSA Windows | Label, couleur, mute, fader | Oui : runtime et modèle SOLSA installés | Cue existant ; pas de création de cue | Non | L500 `.show` sérialisé avec les DLL SOLSA et relu par StageDesk ; SOLSA 6.2.14 ne détecte aucun écran sur le bureau isolé (`Detected 0 Screens`), donc réouverture UI et matériel non validés |
@@ -118,6 +123,10 @@ DM7, RIVAGE PM, CL/QL, TF, DM3, dLive, Avantis, X32/M32 and WING are exposed wit
 explicit limits. Historical network entries below describe the earlier qualification.
 No physical console network validation has been completed.
 
+The StageDesk 2027.1.4 Lawo connector has a
+[dedicated guide](LAWO_NATIVE_AND_NETWORK.md) distinguishes four tested native
+profiles, modern Ember+ networking qualified in mxGUI, and legacy limitations.
+
 This matrix lists StageDesk file workflows. **Native** means
 that StageDesk handles the destination project, session or scene format; it does not
 mean complete fidelity or vendor certification. Transferred fields vary by
@@ -154,6 +163,7 @@ their respective owners.
 | Behringer WING | `snapshot.11` `.snap` | Label, colour, icon, mute, fader | Yes: bundled template | Single snapshot | No | Reopened in WING Edit 3.3.3; multi-snapshot shows/hardware pending |
 | Behringer X32 / Midas M32 | Text `.scn` scene | Label, colour, icon, DCA, HPF, mute, fader | Yes: minimal partial v4 scene | Single copied scene | No | One StageDesk New Project loaded in X32-Edit 4.4 with visible labels/colours; M32-Edit, `.shw`, OSC and hardware remain unvalidated |
 | DiGiCo SD / Quantum V2242 | Current and named snapshots from `.ses` sessions; 13 models, 32 to 108 inputs | ASCII labels | Yes: exact seed per model | Existing snapshot; new snapshot when topology is recognised; replacement after confirmation and `Bckp_` backup | No | Thirteen seeds/outputs checked and reread by StageDesk; SD9 existing write (`DCBD8058…`) and new snapshot (`2CE27E77…`) recalled in SD9 Offline V2242 |
+| Lawo mc² | `.lpn`, Current and snapshots, native revisions 8/73 | Labels only; 12.4 short names preserved | Private user-owned native seed, inherited data retained | Existing snapshot or new snapshot by duplication; backup before replacement | Current Ember+: mc²36 MKII 32, mc²56 MKIII, mc²96 running 12.4.0.0; explicit IPv4/port; 5.14 file-only | Loaded, saved natively and reread in mxGUI 5.14/12.4 on all four profiles; network writes and native readback on the three modern profiles; physical consoles not validated |
 | Midas HD96 | `.show` scenes and the 144-input manufacturer workbook | Existing/new scene in a copy; manufacturer Excel workbook | Not exposed for native shows | Existing or new scene; Excel import/export | No | Official show copied, written and reread by StageDesk with the source preserved; final HD96 Editor/hardware loading pending |
 | Soundcraft Vi | Start and legacy numbered snapshots | Long label and colour | Yes: eight bundled templates | Start or legacy snapshot; modern CueList is not modified | No | Vi600 reopened; other models/hardware pending |
 | SSL Live / SOLSA and System T | `.show` cues through Windows SOLSA | Label, colour, mute, fader | Yes: installed SOLSA runtime/template | Existing cue; no cue creation | No | An L500 `.show` was serialized with SOLSA DLLs and reread by StageDesk; SOLSA 6.2.14 reports `Detected 0 Screens` on the isolated desktop, so UI reopen and hardware remain pending |

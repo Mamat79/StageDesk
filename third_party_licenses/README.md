@@ -22,6 +22,8 @@ Les fichiers sont des copies intégrales, non réécrites :
 | MicroCom.Runtime | 0.11.4 | `MicroCom.Runtime-LICENSE`, dépôt `kekekeks/MicroCom`, commit `28850f85fb586488828ab7267ed4a87e8c970b51` |
 | RBush.Signed | 4.0.0 | `RBush-LICENSE`, dépôt `viceroypenguin/RBush`, commit `b8690322abac35d835baa2fdca4a3918ed77a910` |
 | SharpZipLib | 1.4.2 | `SharpZipLib-LICENSE.txt`, dépôt `icsharpcode/SharpZipLib`, commit `33f64eb0f28cdd2b084cb822fcc224c7c5aba553` |
+| ZstdSharp.Port, candidate Lawo locale | 0.8.8 | `ZstdSharp-LICENSE.txt`, dépôt `oleg-st/ZstdSharp`, commit NuGet `2cd0c019693bc786a5fe5c3be94e107b24e7267e`; inclusion publique seulement lors de la livraison qualifiée |
+| Lawo et Lawo.EmberPlusSharp, candidate réseau locale | commit `1a1c2387c90288b8bae311f318b183659e22c1de` | `Lawo-EmberPlusSharp-LICENSE_1_0.txt`, licence Boost 1.0 du dépôt officiel `Lawo/ember-plus-sharp`, Copyright 2012-2017 Lawo AG ; sources runtime inchangées, aucun éditeur propriétaire ni configuration personnelle inclus |
 | SixLabors.Fonts | 1.0.0 | `SixLabors.Fonts-LICENSE`, dépôt `SixLabors/Fonts`, commit `32bef42997adb10268369ca149777f00e4241ce9` |
 | System.IO.Packaging | 8.0.1 | `System.IO.Packaging-LICENSE.txt` et `System.IO.Packaging-THIRD-PARTY-NOTICES.txt`, fichiers du paquet NuGet exact |
 | System.IO.Pipelines | 8.0.0 | `System.IO.Pipelines-LICENSE.txt` et `System.IO.Pipelines-THIRD-PARTY-NOTICES.txt`, fichiers du paquet NuGet exact |

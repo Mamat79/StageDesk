@@ -18,6 +18,10 @@ hors antenne sur votre modèle et votre firmware avant utilisation en production
 | Allen & Heath dLive / Avantis | TCP 51325 | Lecture labels/couleurs ; écriture labels/couleurs relues ; DCA/mute/fader envoyés sans relecture ; HPF dLive seulement, sans relecture |
 | Behringer X32 / Midas M32 | UDP 10023 | Labels, couleurs, icônes, DCA, HPF, mute et fader ; relecture ; 32 entrées |
 | Behringer WING | UDP 2223 | Labels, couleurs, icônes, mute et fader ; relecture ; 40 canaux + 8 aux ; pas de DCA/HPF |
+| Lawo mc²36 MKII 32 / mc²56 MKIII / mc²96, mxGUI 12.4.0.0 | Port Ember+ configuré explicitement, aucun défaut | Labels DSP Current uniquement, 63 octets UTF-8, noms courts conservés ; deux relectures fraîches ; pas de rappel/stockage de snapshot |
+
+Le [complément Lawo](LAWO_NATIVE_AND_NETWORK.md) précise les profils, le seed
+natif privé et les limites de ce connecteur. Le mc²66 MKII 5.14 reste sur fichier.
 
 La capacité du modèle choisi s'applique. dLive reste limité à 128 entrées et
 Avantis à 64, même en dPack. Le canal MIDI de base A&H doit correspondre à celui
@@ -87,6 +91,12 @@ StageDesk Desktop connects directly over the LAN, without DMT or Mixing Station.
 The table above lists the supported fields and default ports. Software tests use
 real local TCP/UDP sockets; **no physical console was validated for this release**.
 Test off-air on your model and firmware before production use.
+
+The [Lawo supplement](LAWO_NATIVE_AND_NETWORK.md) covers the connector's native
+profiles and Ember+ workflow: mc²36 MKII 32, mc²56 MKIII and mc²96 on mxGUI
+12.4.0.0 only, explicit configured port, DSP Current labels, 63-byte UTF-8,
+short names preserved and two fresh readbacks. No network snapshot recall/store;
+mc²66 MKII 5.14 stays file-only. Physical-console qualification remains pending.
 
 Select the exact family/model and Network. Use the console control IP, not the
 Dante card IP. Simulation opens no socket. Discover requires an interface and an

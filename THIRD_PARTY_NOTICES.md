@@ -40,6 +40,13 @@ console physique ni support constructeur à partir de cette seule référence.
 
 ## Bibliothèques distribuées
 
+La candidate Lawo locale ajoute ZstdSharp.Port 0.8.8 (Oleg Stepanischev),
+port C# de Zstandard sous licence MIT. Révision du paquet NuGet :
+`2cd0c019693bc786a5fe5c3be94e107b24e7267e`, dépôt
+<https://github.com/oleg-st/ZstdSharp>. La licence intégrale est conservée dans
+`third_party_licenses/ZstdSharp-LICENSE.txt`. Cette dépendance locale ne signifie
+pas que l'intégration Lawo a été qualifiée ou publiée.
+
 L'inventaire a été recoupé avec des publications non rognées du client desktop
 pour `win-x64`, `osx-x64` et `osx-arm64`. Le paquet distribue notamment :
 
@@ -85,6 +92,13 @@ dans l’éditeur officiel et sur la machine physique.
 ---
 
 # Third-party references and components
+
+The local Lawo candidate also builds the unchanged `Lawo` and
+`Lawo.EmberPlusSharp` runtime sources (Copyright 2012-2017 Lawo AG) from the
+official `Lawo/ember-plus-sharp` repository at commit
+`1a1c2387c90288b8bae311f318b183659e22c1de`, under the Boost Software License 1.0.
+The full licence ships in `third_party_licenses/Lawo-EmberPlusSharp-LICENSE_1_0.txt`.
+No proprietary mxGUI binaries, firmware or personal console files are included.
 
 StageDesk studied the MIT-licensed Bitfocus Yamaha RCP module and Tobias Grupe's
 MIT-licensed `dlive-midi-tools` v2.14.0 as interoperability references. No
