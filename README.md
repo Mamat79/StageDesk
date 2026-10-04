@@ -271,7 +271,7 @@ pour découvrir le parcours complet et les fonctions de StageDesk.
 
 - pendant les 30 jours d'essai, le rappel d'achat au démarrage est refermable immédiatement ;
 - après 30 jours, StageDesk et toutes ses fonctions restent utilisables ;
-- après l'essai, le rappel affiche 60 secondes d'attente au démarrage uniquement ;
+- après l'essai, le rappel affiche 5 secondes d'attente au démarrage uniquement ;
 - une licence permanente coûte **29 € TTC** et supprime le rappel et l'attente ;
 - le code de licence est envoyé après l’achat ;
 - StageDesk affiche les activations disponibles, puis permet de **désactiver cet
@@ -619,7 +619,7 @@ for the complete workflow and StageDesk features.
 
 - during the 30-day trial, the startup purchase reminder can be closed immediately;
 - after 30 days, StageDesk and every feature remain usable;
-- after the trial, the reminder shows a 60-second startup-only wait;
+- after the trial, the reminder shows a 5-second startup-only wait;
 - a permanent license costs **€29 including tax** and removes the reminder and delay;
 - the license code is sent after purchase;
 - StageDesk shows available activations and provides **Deactivate this

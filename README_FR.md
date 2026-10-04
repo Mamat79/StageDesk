@@ -265,7 +265,7 @@ pour découvrir le parcours complet et les fonctions de StageDesk.
 
 - pendant les 30 jours d'essai, le rappel d'achat au démarrage est refermable immédiatement ;
 - après 30 jours, StageDesk et toutes ses fonctions restent utilisables ;
-- après l'essai, le rappel affiche 60 secondes d'attente au démarrage uniquement ;
+- après l'essai, le rappel affiche 5 secondes d'attente au démarrage uniquement ;
 - une licence permanente coûte **29 € TTC** et supprime le rappel et l'attente ;
 - le code de licence est envoyé après l’achat ;
 - StageDesk affiche les activations disponibles et permet de **désactiver cet

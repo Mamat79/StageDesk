@@ -6,7 +6,7 @@
 
 StageDesk n’est pas bloqué à la fin de l’essai. Pendant les 30 premiers jours,
 un rappel d’achat au démarrage est refermable immédiatement. Ensuite, la fenêtre
-reste visible pendant 60 secondes au démarrage uniquement, puis toutes les
+reste visible pendant 5 secondes au démarrage uniquement, puis toutes les
 fonctions et tous les fichiers restent accessibles. Elle n’interrompt jamais
 une session ou un travail en cours. Une licence permanente valide supprime le
 rappel et l’attente.
@@ -34,7 +34,7 @@ l’activation locale. StageDesk et les projets restent utilisables.
 
 StageDesk is not locked when the trial ends. During the first 30 days, the
 startup purchase reminder can be closed immediately. Afterwards, the window
-remains visible for 60 seconds at startup only, then every feature and file
+remains visible for 5 seconds at startup only, then every feature and file
 remains available. It never interrupts an active session or work in progress.
 A valid permanent license removes both the reminder and the delay.
 
