@@ -1,6 +1,6 @@
 <div align="center">
 
-> **2027.1.6 — prérelease de staging, pas une version stable :** [staging](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.6) · [notes et limites](docs/RELEASE_NOTES_2027.1.6.md). Les paquets Mac publics et l'installation utilisateur restent à terminer ; la version stable précédente n'est pas remplacée.
+> **StageDesk 2027.1.6 :** [téléchargements Windows et macOS](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.6) · [notes et limites de qualification](docs/RELEASE_NOTES_2027.1.6.md). Windows x64 ; macOS 14+ sur Apple Silicon ou Intel. La publication ne signifie pas que votre installation locale a déjà été remplacée.
   <img src="assets/branding/smt-logo.png" width="320" alt="StageDesk">
   <h1>StageDesk v2027</h1>
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>

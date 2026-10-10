@@ -1,6 +1,6 @@
 <div align="center">
 
-> **2027.1.6 staging prerelease / prérelease de préparation :** [release de staging](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.6) · [notes et limites](docs/RELEASE_NOTES_2027.1.6.md). Not stable/latest; macOS publication and user installation are not completed. La version stable précédente reste inchangée.
+> **StageDesk 2027.1.6 :** [Windows and macOS downloads / téléchargements](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.6) · [release notes and qualification limits / notes et limites](docs/RELEASE_NOTES_2027.1.6.md). Windows x64; macOS 14+ on Apple Silicon or Intel. Publication does not certify installation on your computer.
   <a href="#francais">Français</a> · <a href="#english">English</a>
 </div>
 
