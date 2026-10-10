@@ -1,4 +1,6 @@
 <div align="center">
+
+> **2027.1.6 staging prerelease / prérelease de préparation :** [release de staging](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.6) · [notes et limites](docs/RELEASE_NOTES_2027.1.6.md). Not stable/latest; macOS publication and user installation are not completed. La version stable précédente reste inchangée.
   <a href="#francais">Français</a> · <a href="#english">English</a>
 </div>
 
