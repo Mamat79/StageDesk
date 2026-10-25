@@ -1,6 +1,6 @@
 <div align="center">
 
-> **StageDesk Windows 2027.1.8 :** [téléchargements / downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8) · [vérifications et limites / checks and limits](QUALIFICATION-WINDOWS-2027.1.8.md). **macOS reste en 2027.1.7 / remains at 2027.1.7** : [paquets Mac existants / existing Mac packages](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.7).
+> **StageDesk Windows 2027.1.8 :** [téléchargements / downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8) · [vérifications et limites / checks and limits](QUALIFICATION-WINDOWS-2027.1.8.md). **macOS 2027.1.8** : [paquets Mac et guides spécifiques / Mac packages and specific guides](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8), macOS 14+. Activation permanente nouvelle sur Mac indisponible / new permanent Mac activation unavailable; accès gratuit conservé / free access preserved.
   <a href="#francais">Français</a> · <a href="#english">English</a>
 </div>
 
@@ -256,8 +256,8 @@ La version actuelle est proposée pour **Windows x64**, **macOS Intel** et
 **macOS Apple Silicon**.
 
 - [Installer Windows 2027.1.8 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe) · [SHA-256](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe.sha256)
-- [Installer sur Mac Intel 2027.1.7 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.7/StageDesk-v2027.1.7-osx-x64.dmg)
-- [Installer sur Mac Apple Silicon 2027.1.7 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.7/StageDesk-v2027.1.7-osx-arm64.dmg)
+- [Installer sur Mac Intel 2027.1.8 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-x64.dmg)
+- [Installer sur Mac Apple Silicon 2027.1.8 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-arm64.dmg)
 
 Sous Windows, lancez l'installateur. Sur Mac, ouvrez le DMG puis glissez StageDesk
 dans Applications. Les fichiers SHA-256 et les instructions d'installation
@@ -269,9 +269,15 @@ stable adaptée à cet ordinateur et vérifie le téléchargement avant installa
 Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
 
+### Paquets et guides macOS 2027.1.8
+
+macOS 14 ou ultérieur ; runtime .NET 10.0.12 autonome. [Guide professionnel Mac FR](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Mac-Guide-Professionnel-FR.pdf) · [Démarrage rapide Mac FR](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Mac-Demarrage-Rapide-FR.pdf). Les guides Mac sont identiques aux documents embarqués, sous des noms publics distincts des guides Windows.
+
+Qualification séparée : 2 173 tests réussis (1 259 Core et 914 Desktop), sans échec ni test ignoré. L'application ARM a été lancée depuis le staging, pas depuis le DMG monté. Les 17 exports RenderTargetBitmap ne sont pas des captures du bureau ni une recette visuelle complète. Intel est contrôlé structurellement, sans Mac Intel physique. Pas de Developer ID/notarisation, nouvelle activation permanente Mac, installation personnelle ou qualification console/réseau/matériel réels. Le premier candidat échoué reste conservé ; seuls les paquets corrigés qualifiés sont publiés.
+
 ## Licence permanente
 
-**Aucun code ni activation en ligne n’est requis pour essayer ou utiliser StageDesk gratuitement, y compris hors ligne.** Choisissez **Continuer avec StageDesk**. Le champ de code est facultatif et concerne une licence permanente achetée ou offerte. Internet est nécessaire pour activer ce code ; un échec de connexion ne bloque pas l’utilisation gratuite.
+**Aucun code ni activation en ligne n’est requis pour essayer ou utiliser StageDesk gratuitement, y compris hors ligne.** Choisissez **Continuer avec StageDesk**. Sous Windows, le champ facultatif concerne une licence permanente achetée ou offerte ; Internet est nécessaire pour activer ce code. **Cette version Mac ne permet pas une nouvelle activation permanente**, car ce parcours dépend de Windows DPAPI. Cette limite est indiquée avant l’achat et ne bloque pas l’utilisation gratuite. Prix et droits existants restent inchangés.
 
 - pendant les 30 jours d'essai, le rappel d'achat au démarrage est refermable immédiatement ;
 - après 30 jours, StageDesk et toutes ses fonctions restent utilisables ;
@@ -607,8 +613,8 @@ The current release is available for **Windows x64**, **macOS Intel**, and
 **macOS Apple Silicon**.
 
 - [Windows 2027.1.8 installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe) · [SHA-256](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe.sha256)
-- [Mac Intel 2027.1.7 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.7/StageDesk-v2027.1.7-osx-x64.dmg)
-- [Mac Apple Silicon 2027.1.7 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.7/StageDesk-v2027.1.7-osx-arm64.dmg)
+- [Mac Intel 2027.1.8 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-x64.dmg)
+- [Mac Apple Silicon 2027.1.8 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-arm64.dmg)
 
 On Windows, run the installer. On Mac, open the DMG and drag StageDesk into
 Applications. SHA-256 files and installation instructions accompany each release.
@@ -619,9 +625,15 @@ matching this computer and verifies the download before installation.
 Read the [professional guide in English](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Professional-Guide-EN.pdf)
 for the complete workflow and StageDesk features.
 
+### macOS 2027.1.8 packages and guides
+
+Requires macOS 14 or later; self-contained .NET 10.0.12 runtime. [Mac professional guide EN](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Mac-Professional-Guide-EN.pdf) · [Mac quick start EN](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Mac-Quick-Start-EN.pdf). The public Mac guides match the embedded documents and use names distinct from Windows guides.
+
+Separate qualification: 2,173 tests passed (1,259 Core and 914 Desktop), zero failed/skipped. The ARM application ran from staging, not a mounted-DMG launch. The 17 RenderTargetBitmap exports are not desktop screenshots or full visual acceptance. Intel is structurally inspected without physical Intel execution. No Developer ID/notarization, new permanent Mac activation, personal installation or real console/network/hardware qualification. The earlier failed candidate remains retained; only the corrected qualified packages are published.
+
 ## Permanent license
 
-**No code or online activation is required to try or use StageDesk for free, including offline.** Choose **Continue with StageDesk**. The code field is optional and is for a purchased or complimentary permanent license. Internet is required to activate that code; a connection failure does not block free use.
+**No code or online activation is required to try or use StageDesk for free, including offline.** Choose **Continue with StageDesk**. On Windows, the optional code field is for a purchased or complimentary permanent license and Internet is required for activation. **This Mac version cannot perform a new permanent activation**, because that path depends on Windows DPAPI. This limitation is stated before purchase and does not block free use. Existing pricing and rights are unchanged.
 
 - during the 30-day trial, the startup purchase reminder can be closed immediately;
 - after 30 days, StageDesk and every feature remain usable;
