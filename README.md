@@ -1,8 +1,11 @@
 <div align="center">
 
-> **StageDesk Windows 2027.1.8 :** [téléchargements / downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8) · [vérifications et limites / checks and limits](QUALIFICATION-WINDOWS-2027.1.8.md). **macOS 2027.1.8** : [paquets Mac et guides spécifiques / Mac packages and specific guides](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8), macOS 14+. Activation permanente nouvelle sur Mac indisponible / new permanent Mac activation unavailable; accès gratuit conservé / free access preserved.
+> **StageDesk Windows 2027.1.9 :** [téléchargements / downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.9) · [vérifications et limites / checks and limits](QUALIFICATION-WINDOWS-2027.1.9.md). **macOS 2027.1.8** : [paquets Mac et guides spécifiques / Mac packages and specific guides](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8), macOS 14+. Activation permanente nouvelle sur Mac indisponible / new permanent Mac activation unavailable; accès gratuit conservé / free access preserved.
   <a href="#francais">Français</a> · <a href="#english">English</a>
 </div>
+
+**Windows 2027.1.9 :** route Récupérer → Modifier → Envoyer, tableau recentré et inspecteur du canal. Installation et conservation des données contrôlées ; [nouveautés FR/EN](RELEASE_NOTES_2027.1.9.md). **macOS reste en 2027.1.8**, avec ses paquets et guides distincts ci-dessous. / Import → Edit → Send, central table and channel inspector; Windows installation and data preservation checked. Mac remains 2027.1.8.
+
 
 <a id="francais"></a>
 
@@ -19,8 +22,8 @@
   <p>
     <a href="#english">English</a> ·
     <a href="https://www.silemio.com/logiciels/stagedesk">Télécharger</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
 </div>
@@ -255,7 +258,7 @@ Téléchargez StageDesk v2027 depuis la
 La version actuelle est proposée pour **Windows x64**, **macOS Intel** et
 **macOS Apple Silicon**.
 
-- [Installer Windows 2027.1.8 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe) · [SHA-256](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe.sha256)
+- [Installer Windows 2027.1.9 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Setup-v2027.1.9.exe) · [SHA-256](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Setup-v2027.1.9.exe.sha256)
 - [Installer sur Mac Intel 2027.1.8 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-x64.dmg)
 - [Installer sur Mac Apple Silicon 2027.1.8 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-arm64.dmg)
 
@@ -266,7 +269,7 @@ accompagnent les téléchargements officiels.
 Dans StageDesk, **Aide > Rechercher des mises à jour** propose la dernière version
 stable adaptée à cet ordinateur et vérifie le téléchargement avant installation.
 
-Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Guide-Professionnel-FR.pdf)
+Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
 
 ### Paquets et guides macOS 2027.1.8
@@ -383,8 +386,8 @@ StageDesk fait partie de la gamme **SiLeMI/O by Mamat**.
   <p>
     <a href="#francais">Français</a> ·
     <a href="https://www.silemio.com/en/software/stagedesk">Download</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Quick-Start-EN.pdf">Quick start</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Professional-Guide-EN.pdf">Professional guide</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Quick-Start-EN.pdf">Quick start</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Professional-Guide-EN.pdf">Professional guide</a> ·
     <a href="docs/SiLeMIO-Suite-Guide-EN.pdf">SiLeMIO suite guide</a>
   </p>
 </div>
@@ -612,7 +615,7 @@ Download StageDesk v2027 from the
 The current release is available for **Windows x64**, **macOS Intel**, and
 **macOS Apple Silicon**.
 
-- [Windows 2027.1.8 installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe) · [SHA-256](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Setup-v2027.1.8.exe.sha256)
+- [Windows 2027.1.9 installer (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Setup-v2027.1.9.exe) · [SHA-256](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Setup-v2027.1.9.exe.sha256)
 - [Mac Intel 2027.1.8 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-x64.dmg)
 - [Mac Apple Silicon 2027.1.8 installer (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-v2027.1.8-osx-arm64.dmg)
 
@@ -622,7 +625,7 @@ Applications. SHA-256 files and installation instructions accompany each release
 In StageDesk, **Help > Check for updates** offers the latest stable version
 matching this computer and verifies the download before installation.
 
-Read the [professional guide in English](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.8/StageDesk-Professional-Guide-EN.pdf)
+Read the [professional guide in English](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.9/StageDesk-Professional-Guide-EN.pdf)
 for the complete workflow and StageDesk features.
 
 ### macOS 2027.1.8 packages and guides
