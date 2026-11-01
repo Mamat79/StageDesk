@@ -39,3 +39,6 @@ Returning from the preview creates no output. Cancelling replacement preserves t
 Source checks are separate: final targeted rerun 212/212, safety/capacity checks 104/104, Current disclosure 11/11 and final preview guard 14/14. These overlapping groups must not be added into a single total. The initial full report retains 12 failures out of 931 cases; all affected case names passed in the targeted rerun after correction. This is not represented as a fresh successful full-suite run.
 
 Limits: no physical console, network or audio acceptance, and no fresh Yamaha CL/QL Editor import of these three outputs. Visible file conversions used French/dark; the other UI combinations belong to the separate automated visual smoke. Unknown-profile/unavailable-scene refusals were not newly exercised manually in this session. Licence data remained opaque. Windows qualification does not qualify macOS; public Mac packages remain at 2027.1.8 pending a separately verified delivery. Installer and ZIP hashes above identify the exact Windows files.
+
+
+Actualisation / Update — 1 November 2026: la mention Mac 1.8 ci-dessus décrit l’état à la qualification Windows. Une livraison Mac 2027.1.10 séparée est maintenant vérifiée : [qualification Mac et limites / Mac checks and limits](QUALIFICATION-MAC-2027.1.10.md). Windows evidence remains distinct.

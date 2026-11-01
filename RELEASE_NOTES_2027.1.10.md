@@ -19,3 +19,10 @@ The preview identifies the target project and state/scene, what will be added or
 For CL/QL, the preview clarifies that creating a scene updates Current before duplicating it into the new slot; other stored scenes are preserved. This existing converter behaviour is unchanged.
 
 Windows delivery follows workshop qualification and a backed-up replacement. Mac preparation is scheduled for the free-quota follow-up on 1 November; native qualification and publication remain separate. Earlier DMGs do not qualify this interface.
+
+
+## Livraison Mac vérifiée — 1er novembre 2026 / Verified Mac delivery — 1 November 2026
+
+macOS 2027.1.10 est maintenant livré pour Apple Silicon et Intel, avec quatre guides Mac distincts. Nouvelle exécution Mac : 2 193 tests réussis, 0 échec/ignoré. ARM : lancement depuis le DMG monté en lecture seule, fermeture naturelle 0, puis détachement ; 41 rendus de composants synthétiques dont 24 conversions, huit échantillons relus. Intel statique uniquement ; macOS 14 déclaré ; pas de Developer ID/notarisation, recette console/réseau/audio ni écriture réelle d’adaptateurs par l’interface Mac. Nouvelle activation permanente Mac indisponible ; mode gratuit conservé. [Qualification Mac complète](QUALIFICATION-MAC-2027.1.10.md).
+
+macOS 2027.1.10 is now available for Apple Silicon and Intel, with four distinct Mac guides. The new Mac execution passed 2,193 tests, zero failed/skipped. ARM launched from the read-only mounted DMG and exited naturally with code 0 before detach; 41 synthetic component renders include 24 conversion views, with eight samples reviewed. Intel static only; macOS 14 is metadata; no Developer ID/notarization, real console/network/audio or native-interface adapter writes. New permanent Mac activation remains unavailable; free use is preserved. [Full Mac checks and limits](QUALIFICATION-MAC-2027.1.10.md).

@@ -1,6 +1,6 @@
 <div align="center">
 
-> **StageDesk Windows 2027.1.10 :** [téléchargements](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.10) · [vérifications et limites](QUALIFICATION-WINDOWS-2027.1.10.md) · [notes de version](RELEASE_NOTES_2027.1.10.md). **macOS reste en 2027.1.8**, [paquets et guides Mac spécifiques](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8), macOS 14+. Une nouvelle activation permanente Mac reste indisponible ; accès gratuit conservé. La publication ne signifie pas que votre installation locale a déjà été remplacée.
+> **StageDesk Windows 2027.1.10 :** [téléchargements](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.10) · [vérifications et limites](QUALIFICATION-WINDOWS-2027.1.10.md) · [notes de version](RELEASE_NOTES_2027.1.10.md). **macOS 2027.1.10**, [paquets et guides Mac spécifiques](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.10), macOS 14+. [Qualification Mac et limites](QUALIFICATION-MAC-2027.1.10.md). Une nouvelle activation permanente Mac reste indisponible ; accès gratuit conservé. La publication ne signifie pas que votre installation locale a déjà été remplacée.
   <img src="assets/branding/smt-logo.png" width="320" alt="StageDesk">
   <h1>StageDesk v2027</h1>
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
