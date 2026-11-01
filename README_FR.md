@@ -1,6 +1,6 @@
 <div align="center">
 
-> **StageDesk 2027.1.6 :** [téléchargements Windows et macOS](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.6) · [notes et limites de qualification](docs/RELEASE_NOTES_2027.1.6.md). Windows x64 ; macOS 14+ sur Apple Silicon ou Intel. La publication ne signifie pas que votre installation locale a déjà été remplacée.
+> **StageDesk Windows 2027.1.10 :** [téléchargements](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.10) · [vérifications et limites](QUALIFICATION-WINDOWS-2027.1.10.md) · [notes de version](RELEASE_NOTES_2027.1.10.md). **macOS reste en 2027.1.8**, [paquets et guides Mac spécifiques](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.8), macOS 14+. Une nouvelle activation permanente Mac reste indisponible ; accès gratuit conservé. La publication ne signifie pas que votre installation locale a déjà été remplacée.
   <img src="assets/branding/smt-logo.png" width="320" alt="StageDesk">
   <h1>StageDesk v2027</h1>
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
@@ -13,8 +13,8 @@
   <p>
     <a href="README.md">English</a> ·
     <a href="https://www.silemio.com/logiciels/stagedesk">Télécharger</a> ·
-    <a href="docs/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
-    <a href="docs/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.10/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.10/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
 </div>
@@ -260,7 +260,7 @@ accompagnent les téléchargements officiels.
 Dans StageDesk, **Aide > Rechercher des mises à jour** propose la dernière version
 stable adaptée à cet ordinateur et vérifie le téléchargement avant installation.
 
-Consultez la [notice professionnelle en français](docs/StageDesk-Guide-Professionnel-FR.pdf)
+Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.10/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
 
 ## Licence permanente
