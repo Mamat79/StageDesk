@@ -1,6 +1,6 @@
 <div align="center">
 
-> **StageDesk Windows 2027.1.10 :** [téléchargements](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.10) · [vérifications et limites](QUALIFICATION-WINDOWS-2027.1.10.md) · [notes de version](RELEASE_NOTES_2027.1.10.md). **macOS 2027.1.10**, [paquets et guides Mac spécifiques](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.10), macOS 14+. [Qualification Mac et limites](QUALIFICATION-MAC-2027.1.10.md). Une nouvelle activation permanente Mac reste indisponible ; accès gratuit conservé. La publication ne signifie pas que votre installation locale a déjà été remplacée.
+> **StageDesk 2027.1.25 — Windows x64 et macOS 14+ (Intel et Apple Silicon).** [Téléchargements / Downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.25) · [Notes FR/EN](RELEASE_NOTES_2027.1.25.md) · [Vérifications / Qualification](QUALIFICATION-2027.1.25.md).
   <img src="assets/branding/smt-logo.png" width="320" alt="StageDesk">
   <h1>StageDesk v2027</h1>
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
@@ -13,8 +13,8 @@
   <p>
     <a href="README.md">English</a> ·
     <a href="https://www.silemio.com/logiciels/stagedesk">Télécharger</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.10/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.10/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
 </div>
@@ -49,6 +49,8 @@ Chaque écriture exige une confirmation et une sauvegarde des champs relus.
 Cette sauvegarde n'est pas un show complet. Les tests logiciels TCP/UDP ne
 remplacent pas la recette hors antenne sur une console physique, qui reste à faire.
 Consultez les [procédures et limites réseau](docs/NETWORK_CONSOLES.md).
+Le tableau des protocoles, ports et fonctions par console est en page 8 de la
+[notice professionnelle](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Guide-Professionnel-FR.pdf#page=8).
 
 StageDesk 2027.1.4 ajoute les labels Current en Ember+ pour mc²36 MKII 32,
 mc²56 MKIII et mc²96 sous 12.4.0.0, avec IPv4 et port explicitement configurés.
@@ -260,7 +262,7 @@ accompagnent les téléchargements officiels.
 Dans StageDesk, **Aide > Rechercher des mises à jour** propose la dernière version
 stable adaptée à cet ordinateur et vérifie le téléchargement avant installation.
 
-Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.10/StageDesk-Guide-Professionnel-FR.pdf)
+Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
 
 ## Licence permanente
@@ -268,7 +270,7 @@ pour découvrir le parcours complet et les fonctions de StageDesk.
 - pendant les 30 jours d'essai, le rappel d'achat au démarrage est refermable immédiatement ;
 - après 30 jours, StageDesk et toutes ses fonctions restent utilisables ;
 - après l'essai, le rappel affiche 5 secondes d'attente au démarrage uniquement ;
-- une licence permanente coûte **29 € TTC** et supprime le rappel et l'attente ;
+- une licence permanente coûte **99 € TTC** et supprime le rappel et l'attente ;
 - le code de licence est envoyé après l’achat ;
 - StageDesk affiche les activations disponibles et permet de **désactiver cet
   ordinateur** pour libérer une place ;
@@ -276,7 +278,7 @@ pour découvrir le parcours complet et les fonctions de StageDesk.
 - les mises à jour conservent l’activation quand les données locales sont
   conservées.
 
-[Acheter une licence StageDesk — 29 € TTC](https://smt-license.mamat79-dce.workers.dev/buy)
+[Acheter une licence StageDesk — 99 € TTC](https://www.silemio.com/acheter)
 
 ## Écosystème SiLeMI/O
 
@@ -335,7 +337,7 @@ zéros initiaux. Le code et le chemin distant ne sont jamais enregistrés.
   poste de la Session StageFlow LIVE sans perdre le tableau courant. Une perte
   de connexion est signalée en rouge et ne déclenche aucune reconnexion automatique.
 
-- [Télécharger StageFlow — gratuit et optionnel](https://github.com/Mamat79/StageFlow/releases/latest)
+- [Télécharger StageFlow — optionnel](https://github.com/Mamat79/StageFlow/releases/latest)
 - [Télécharger Dante Config Editor](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 - [Télécharger StageMark](https://github.com/Mamat79/StageMark/releases/latest)
 - [Télécharger StageMon](https://github.com/Mamat79/StageMon/releases/latest)

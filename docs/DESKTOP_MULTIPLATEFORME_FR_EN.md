@@ -10,11 +10,14 @@ et logiciels audio, dans une interface commune en français ou en anglais.
 Téléchargez uniquement depuis la
 [page officielle StageDesk](https://www.silemio.com/logiciels/stagedesk).
 
-- **Windows x64** : lancez `StageDesk-Setup-v2027.0.7.exe`. L'assistant installe
+Les noms ci-dessous concernent les paquets 2027.1.9 ; la page officielle indique
+les versions réellement disponibles pour chaque plateforme.
+
+- **Windows x64** : lancez `StageDesk-Setup-v2027.1.9.exe`. L'assistant installe
   `StageDesk.exe` pour votre compte, crée le raccourci **StageDesk v2027** et
   propose une désinstallation standard dans les applications Windows.
-- **Mac Intel** : ouvrez `StageDesk-v2027.0.7-osx-x64.dmg`.
-- **Mac Apple Silicon** : ouvrez `StageDesk-v2027.0.7-osx-arm64.dmg`.
+- **Mac Intel** : ouvrez `StageDesk-v2027.1.9-osx-x64.dmg`.
+- **Mac Apple Silicon** : ouvrez `StageDesk-v2027.1.9-osx-arm64.dmg`.
 - **Sur Mac**, glissez **StageDesk.app** dans **Applications**, puis lancez-le.
   Si une version est déjà présente, enregistrez et fermez vos projets avant remplacement.
 
@@ -22,6 +25,11 @@ Les paquets incluent le runtime .NET : aucune installation séparée n'est néce
 Les fichiers SHA-256 accompagnent les installateurs. Les DMG utilisent une signature
 d'intégrité ad hoc, sans signature Developer ID ni notarisation Apple ; macOS peut
 afficher un avertissement. Ne considérez pas cette signature comme une certification Apple.
+
+macOS 14 minimum ; runtime .NET 10.0.12 inclus. L’utilisation gratuite n’exige
+ni code ni activation en ligne. L’activation d’un nouveau code de licence
+permanente n’est pas prise en charge sur Mac dans cette version ; choisissez
+**Continuer avec StageDesk**. Voir [les licences](LICENSING_STAGEDESK_FR_EN.md).
 
 ### Trois façons de travailler
 
@@ -44,9 +52,13 @@ labels sont reçues par défaut et restent visibles jusqu'à acquittement local.
 ### Interface et travail audio
 
 Le tableau conserve ses données lorsque la source, la destination, le thème ou
-la langue change. Les flèches permettent de replier les panneaux gauche, haut et
-droite ; **Affichage > Mode tableau agrandi** donne la place au tableau.
-**Détails** ouvre les réglages par paramètre à la demande.
+la langue change. Cliquez sur **Récupérer** ou **Envoyer** dans la route pour
+ouvrir les réglages de cette étape ; **Modifier** replie ces formulaires.
+Le label original et le label préparé sont côte à côte. Sélectionnez une ligne
+pour la modifier dans l’inspecteur à droite. **Détails** dans le tableau retrouve
+les métadonnées et les cases Appliquer par paramètre ; dans l’inspecteur, il
+ouvre les réglages du canal sélectionné. Les flèches permettent de replier les
+panneaux ; **Affichage > Mode tableau agrandi** et **F11** donnent la place au tableau.
 
 Les imports et exports métier restent disponibles indépendamment de StageFlow.
 Un clic explicite sur **Exporter** reste nécessaire : LIVE ne commande jamais
@@ -66,7 +78,7 @@ n'est jamais proposé. Après confirmation du téléchargement, le SHA-256 du
 paquet est vérifié avant de le présenter ; l'installation reste manuelle.
 
 Consultez la [licence utilisateur](EULA_FR_EN.md) et la
-[notice de licence](LICENSING_STAGEDESK_FR_EN.md). StageFlow est gratuit et optionnel.
+[notice de licence](LICENSING_STAGEDESK_FR_EN.md). StageFlow reste optionnel.
 
 ## English
 
@@ -78,11 +90,14 @@ consoles and software through one French or English interface.
 Download only from the
 [official StageDesk page](https://www.silemio.com/en/software/stagedesk).
 
-- **Windows x64**: run `StageDesk-Setup-v2027.0.7.exe`. The wizard installs
+The filenames below describe the 2027.1.9 packages; the official page lists
+the versions actually available for each platform.
+
+- **Windows x64**: run `StageDesk-Setup-v2027.1.9.exe`. The wizard installs
   `StageDesk.exe` for your account, creates the **StageDesk v2027** shortcut,
   and registers standard uninstallation in Windows Apps.
-- **Intel Mac**: open `StageDesk-v2027.0.7-osx-x64.dmg`.
-- **Apple Silicon Mac**: open `StageDesk-v2027.0.7-osx-arm64.dmg`.
+- **Intel Mac**: open `StageDesk-v2027.1.9-osx-x64.dmg`.
+- **Apple Silicon Mac**: open `StageDesk-v2027.1.9-osx-arm64.dmg`.
 - **On Mac**, drag **StageDesk.app** into **Applications**, then launch it.
   Save and close projects before replacing an existing version.
 
@@ -90,6 +105,11 @@ Packages include .NET; no separate runtime installation is required.
 SHA-256 files accompany the installers. DMGs use ad-hoc integrity signing, not
 Apple Developer ID signing or notarization, so macOS may display a warning.
 This signature is not Apple certification.
+
+macOS 14 or later is required; .NET 10.0.12 is included. Free use requires no
+code or online activation. Activating a new permanent license code is not
+supported on Mac in this version; choose **Continue with StageDesk**. See
+[licensing](LICENSING_STAGEDESK_FR_EN.md).
 
 ### Three workflows
 
@@ -110,9 +130,12 @@ on this computer.
 
 ### Interface and audio work
 
-Changing the source, target, theme or language preserves the table. Arrows
-collapse the left, upper and right panels; **View > Expanded table mode** expands the
-table. **Details** exposes per-parameter controls when needed.
+Changing the source, target, theme or language preserves the table. Click
+**Import** or **Send** in the route to open that step’s settings; **Edit** folds
+those forms. Original and prepared labels sit together. Select a row to edit it
+in the right inspector. Table **Details** restores metadata and per-parameter
+Apply choices; inspector **Details** opens the selected channel’s settings.
+Arrows collapse the panels; **View > Expanded table mode** and **F11** expand the table.
 
 Audio imports and exports work independently of StageFlow. **Export** remains
 an explicit action; LIVE never commands a console or audio application.
@@ -131,4 +154,4 @@ platforms are never offered. After you confirm the download, the package's
 SHA-256 is verified before presenting it; installation remains manual.
 
 See the [user licence](EULA_FR_EN.md) and
-[licensing guide](LICENSING_STAGEDESK_FR_EN.md). StageFlow is free and optional.
+[licensing guide](LICENSING_STAGEDESK_FR_EN.md). StageFlow remains optional.

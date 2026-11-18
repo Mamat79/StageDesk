@@ -140,7 +140,7 @@ resélectionne pas et ne déclenche pas une action explicite. Les limites propre
 - `.smt` V5 reste importable comme ancien format.
 - La capacité interne de 800 canaux et les connecteurs existants ne changent
   pas.
-- StageFlow est gratuit et optionnel :
+- StageFlow est optionnel :
   <https://github.com/Mamat79/StageFlow/releases/latest>
 
 ## Classeur portable StageFlow V3
