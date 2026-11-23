@@ -1,6 +1,6 @@
 <div align="center">
 
-> **StageDesk 2027.1.25 — Windows x64 et macOS 14+ (Intel et Apple Silicon).** [Téléchargements / Downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.25) · [Notes FR/EN](RELEASE_NOTES_2027.1.25.md) · [Vérifications / Qualification](QUALIFICATION-2027.1.25.md).
+> **StageDesk 2027.1.27 · Windows x64 · macOS 2027.1.26 (Intel et Apple Silicon).** [Téléchargements / Downloads](https://github.com/Mamat79/StageDesk/releases/tag/v2027.1.27) · [Notes FR/EN](RELEASE_NOTES_2027.1.27.md).
   <img src="assets/branding/smt-logo.png" width="320" alt="StageDesk">
   <h1>StageDesk v2027</h1>
   <p>Transférez vos labels et réglages essentiels entre consoles et logiciels audio.</p>
@@ -13,8 +13,8 @@
   <p>
     <a href="README.md">English</a> ·
     <a href="https://www.silemio.com/logiciels/stagedesk">Télécharger</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
-    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.27/StageDesk-Demarrage-Rapide-FR.pdf">Démarrage rapide</a> ·
+    <a href="https://github.com/Mamat79/StageDesk/releases/download/v2027.1.27/StageDesk-Guide-Professionnel-FR.pdf">Notice professionnelle</a> ·
     <a href="docs/Guide-Suite-SiLeMIO-FR.pdf">Guide de la suite SiLeMIO</a>
   </p>
 </div>
@@ -50,7 +50,7 @@ Cette sauvegarde n'est pas un show complet. Les tests logiciels TCP/UDP ne
 remplacent pas la recette hors antenne sur une console physique, qui reste à faire.
 Consultez les [procédures et limites réseau](docs/NETWORK_CONSOLES.md).
 Le tableau des protocoles, ports et fonctions par console est en page 8 de la
-[notice professionnelle](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Guide-Professionnel-FR.pdf#page=8).
+[notice professionnelle](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.27/StageDesk-Guide-Professionnel-FR.pdf#page=8).
 
 StageDesk 2027.1.4 ajoute les labels Current en Ember+ pour mc²36 MKII 32,
 mc²56 MKIII et mc²96 sous 12.4.0.0, avec IPv4 et port explicitement configurés.
@@ -251,9 +251,9 @@ Téléchargez StageDesk v2027 depuis la
 La version actuelle est proposée pour **Windows x64**, **macOS Intel** et
 **macOS Apple Silicon**.
 
-- [Installer Windows 2027.1.25 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Setup-v2027.1.25.exe)
-- [Installer sur Mac Intel 2027.1.25 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-v2027.1.25-osx-x64.dmg)
-- [Installer sur Mac Apple Silicon 2027.1.25 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-v2027.1.25-osx-arm64.dmg)
+- [Installer Windows 2027.1.27 (.exe)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.27/StageDesk-Setup-v2027.1.27.exe)
+- [Installer sur Mac Intel 2027.1.26 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.26/StageDesk-v2027.1.26-osx-x64.dmg)
+- [Installer sur Mac Apple Silicon 2027.1.26 (.dmg)](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.26/StageDesk-v2027.1.26-osx-arm64.dmg)
 
 Sous Windows, lancez l'installateur. Sur Mac, ouvrez le DMG puis glissez StageDesk
 dans Applications. Les fichiers SHA-256 et les instructions d'installation
@@ -262,23 +262,16 @@ accompagnent les téléchargements officiels.
 Dans StageDesk, **Aide > Rechercher des mises à jour** propose la dernière version
 stable adaptée à cet ordinateur et vérifie le téléchargement avant installation.
 
-Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.25/StageDesk-Guide-Professionnel-FR.pdf)
+Consultez la [notice professionnelle en français](https://github.com/Mamat79/StageDesk/releases/download/v2027.1.27/StageDesk-Guide-Professionnel-FR.pdf)
 pour découvrir le parcours complet et les fonctions de StageDesk.
 
 ## Licence permanente
 
-- pendant les 30 jours d'essai, le rappel d'achat au démarrage est refermable immédiatement ;
-- après 30 jours, StageDesk et toutes ses fonctions restent utilisables ;
-- après l'essai, le rappel affiche 5 secondes d'attente au démarrage uniquement ;
-- une licence permanente coûte **99 € TTC** et supprime le rappel et l'attente ;
-- le code de licence est envoyé après l’achat ;
-- StageDesk affiche les activations disponibles et permet de **désactiver cet
-  ordinateur** pour libérer une place ;
-- après l’activation initiale, StageDesk fonctionne hors ligne ;
-- les mises à jour conservent l’activation quand les données locales sont
-  conservées.
+Sous Windows, choisissez **Continuer avec StageDesk** pour utiliser toutes les fonctions pendant 30 jours, même hors ligne. Après l’essai, le prochain démarrage demande une licence permanente à **49 € TTC**. Activez votre code une fois en ligne, puis utilisez l’application hors ligne. Pour transférer une licence, désactivez l’ancien ordinateur connecté avant d’activer le nouveau.
 
-[Acheter une licence StageDesk — 99 € TTC](https://www.silemio.com/acheter)
+Sur Mac, StageDesk 2027.1.26 reste gratuit, y compris hors ligne. L’achat concerne l’activation Windows.
+
+[Acheter une licence StageDesk — 49 € TTC](https://www.silemio.com/acheter)
 
 ## Écosystème SiLeMI/O
 

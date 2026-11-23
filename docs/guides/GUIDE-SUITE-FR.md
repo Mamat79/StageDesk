@@ -11,10 +11,10 @@ seul, avec son projet natif. Lorsqu’on veut faire circuler le même show
 entre plusieurs outils, chaque logiciel peut aussi créer, ouvrir et enregistrer
 un projet StageFlow `.stageflow`, même si StageFlow n’est pas installé.
 
-Prix TTC des licences permanentes : StageFlow **79 €**, StageDesk **99 €**,
+Prix TTC des licences permanentes : StageFlow **79 €**, StageDesk **49 €**,
 Dante Config Editor **79 €**, StageMark **49 €**, StageMon **49 €** et Larsen Lupin
 **49 €**. Le pack StageFlow, StageDesk, StageMark et StageMon coûte **199 € TTC**,
-au lieu de **276 €** séparément, soit **77 € d’économie**.
+au lieu de **226 €** séparément, soit **27 € d’économie**.
 
 Découvrir StageFlow et ses versions publiées : [page officielle StageFlow](https://www.silemio.com/logiciels/stageflow).
 

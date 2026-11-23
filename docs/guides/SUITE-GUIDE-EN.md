@@ -11,10 +11,10 @@ own with its native project. When the same show must move between several
 tools, every application can also create, open and save a StageFlow
 `.stageflow` project, even when StageFlow is not installed.
 
-Permanent license prices including VAT: StageFlow **€79**, StageDesk **€99**,
+Permanent license prices including VAT: StageFlow **€79**, StageDesk **€49**,
 Dante Config Editor **€79**, StageMark **€49**, StageMon **€49** and Larsen Lupin
 **€49**. The StageFlow, StageDesk, StageMark and StageMon bundle costs **€199
-including VAT**, instead of **€276** separately, saving **€77**.
+including VAT**, instead of **€226** separately, saving **€27**.
 
 Discover StageFlow and its published versions: [official StageFlow page](https://www.silemio.com/en/software/stageflow).
 

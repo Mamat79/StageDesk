@@ -1,0 +1,4 @@
+b3780b9e094fae1c63f5da8ac4110178c12861a66ae9693ff0c158dbe672932b  StageDesk-Mac-Demarrage-Rapide-FR.pdf
+58902c1cd2974cbaab17350d1612ef8acc6c34be5d9639d779a3513d5e0ca552  StageDesk-Mac-Guide-Professionnel-FR.pdf
+c9816da90cfe41a9e2f0993eb197ae88cf1dc24e0bf0b981a6692efbceab8d06  StageDesk-Mac-Professional-Guide-EN.pdf
+4dc043f16384334d568429d11c5b79dc9b3492a1d39177e6ce0ca6e11f570621  StageDesk-Mac-Quick-Start-EN.pdf
