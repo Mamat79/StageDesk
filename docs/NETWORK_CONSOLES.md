@@ -12,6 +12,7 @@ hors antenne sur votre modèle et votre firmware avant utilisation en production
 
 | Famille | Protocole et port par défaut | Lecture et écriture des entrées |
 |---|---|---|
+| Yamaha DM5 / DM5 Compact | Yamaha RCP sur TCP 49280 | 60 ou 48 entrées selon modèle ; labels UTF-8, couleurs, icônes, DCA, coupe-bas, mute et fader avec relecture |
 | Yamaha DM7 / RIVAGE PM | Yamaha RCP sur TCP 49280 | Labels, couleurs, icônes, DCA, HPF, mute et fader ; relecture |
 | Yamaha CL / QL | Yamaha RCP sur TCP 49280 | Labels, couleurs, icônes, DCA, mute et fader ; relecture ; pas de HPF |
 | Yamaha TF / DM3 | Yamaha RCP sur TCP 49280 | Labels, couleurs, icônes, mute et fader ; relecture ; pas de DCA/HPF |
@@ -25,9 +26,11 @@ hors antenne sur votre modèle et votre firmware avant utilisation en production
 Le [complément Lawo](LAWO_NATIVE_AND_NETWORK.md) précise les profils, le seed
 natif privé et les limites de ce connecteur. Le mc²66 MKII 5.14 reste sur fichier.
 
-La capacité du modèle choisi s'applique. dLive reste limité à 128 entrées et
-Avantis à 64, même en dPack. Le canal MIDI de base A&H doit correspondre à celui
-de la console : 1 à 12, défaut 12. Les labels sont limités à 8 caractères ASCII
+La capacité du modèle choisi s’applique. dLive prend en charge 128 entrées.
+Choisissez **Avantis** ou **Avantis Solo** pour 64 entrées, ou la variante **dPack**
+correspondante pour 96 entrées avec le firmware V2 et dPack actif. Le test du
+profil dPack vérifie la réponse de l’entrée 96. Le canal MIDI de base doit
+correspondre à celui de la console (1 à 12, 12 par défaut). Les labels sont limités à 8 caractères ASCII
 sur dLive/Avantis/TF/DM3, 12 sur X32/M32, 16 sur WING ; CL/QL autorise 8 octets UTF-8.
 Pour SQ 1.6, renseignez l’adresse de contrôle du modèle sélectionné et son canal
 MIDI de 1 à 16. Cliquez sur « Afficher le routage » pour lire l’affectation de
@@ -63,11 +66,11 @@ Les valeurs non prises en charge restent décochées à l'import. Un résultat
 
 Le raccourci local reprend le principe documenté par
 [dLive MIDI Tools](https://github.com/togrupe/dlive-midi-tools/blob/main/doc/usage.md#console-selection--connection-settings).
-Sous Windows, l’essai hors ligne a confirmé la détection et la lecture de
-128 entrées dans dLive Director 2.12. Dans Avantis Director 2.02, il a confirmé
-la détection, la lecture de 64 entrées et l’envoi suivi d’une relecture du nom
-et de la couleur sur une entrée d’une copie de test. La connexion à Director
-sous macOS et la connexion aux consoles physiques restent à vérifier.
+Sous Windows, dLive Director 2.12 a fourni les 128 entrées en lecture.
+Avantis Director 2.02, en mode hors ligne Avantis puis Avantis Solo sur le
+show usine FOH dPack, a fourni les 96 entrées. Les noms et couleurs des
+entrées 65 et 96 ont été envoyés, relus puis rétablis dans les deux modes.
+Les connexions à Director sous macOS et aux consoles physiques restent à vérifier.
 
 1. Choisissez la famille, le modèle exact et le mode **Réseau** en source ou destination.
 2. Utilisez l'IP de contrôle de la console, pas celle de sa carte Dante. En
@@ -182,11 +185,11 @@ desired scene in Director or on the console. **Saved show…** opens the show fi
 for selecting and transferring a stored scene without recalling it on the system.
 The **Settings to send** window filters the prepared fields for the transfer.
 The filters apply to the included channels and follow the selected network profile.
-Offline tests on Windows confirmed detection and reading 128 inputs in dLive
-Director 2.12. In Avantis Director 2.02, the test confirmed detection, reading
-64 inputs, and sending and reading back one input's name and colour on a test
-copy. Connecting to Director on macOS and to physical consoles still needs
-verification.
+On Windows, offline dLive Director 2.12 exposed all 128 inputs for reading.
+Offline Avantis Director 2.02 exposed all 96 inputs in both Avantis and
+Avantis Solo modes with the FOH dPack factory show. Input names and colours
+were sent, read back and restored on inputs 65 and 96 in both modes.
+Director connectivity on macOS and physical console verification are pending.
 
 StageDesk Desktop connects directly over the LAN, without DMT or Mixing Station.
 The table above lists the supported fields and default ports. Software tests use
@@ -221,8 +224,10 @@ no other operator or application should change the same parameters during transf
 Yamaha and OSC writes use readback. dLive reads and verifies labels, colours,
 input mute and supported fader steps. Avantis reads and verifies labels and colours.
 DCA and dLive-only HPF use send only, as do Avantis mute and fader. Check those
-fields manually. The base MIDI channel must match (1-12, default 12). Capacity is limited
-to 128 dLive / 64 Avantis inputs, including dPack. WING uses 40 channels + 8 aux;
+fields manually. The base MIDI channel must match (1-12, default 12). dLive supports
+128 inputs. Select **Avantis** or **Avantis Solo** for 64 inputs, or the matching
+**dPack** model for 96 inputs with firmware V2 and dPack active. Testing the dPack
+profile checks the response from input 96. WING uses 40 channels + 8 aux;
 editing linked appearance detaches `clink` while preserving visible unchecked
 fields and routing. TF/DM3/WING omit network DCA/HPF; CL/QL omits HPF.
 
